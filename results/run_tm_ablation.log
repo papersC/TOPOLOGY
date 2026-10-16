@@ -1,0 +1,29 @@
+seed 0 done
+seed 1 done
+seed 2 done
+seed 3 done
+seed 4 done
+seed 5 done
+seed 6 done
+seed 7 done
+seed 8 done
+seed 9 done
+default (L_max=32)                       T=0.5209±0.0139 ratio=1.0000±0.0000 rec=27.6 lat=66.5 ms (max 263)
+L_max=1                                  T=1.0157±0.0834 ratio=1.9449±0.1092 rec=9.0 lat=10.1 ms (max 15)
+L_max=2                                  T=0.7104±0.0576 ratio=1.3631±0.0993 rec=13.0 lat=14.2 ms (max 22)
+L_max=3                                  T=0.6048±0.0342 ratio=1.1604±0.0522 rec=15.9 lat=18.9 ms (max 39)
+L_max=4                                  T=0.5709±0.0297 ratio=1.0950±0.0364 rec=18.6 lat=24.1 ms (max 59)
+L_max=6                                  T=0.5355±0.0191 ratio=1.0278±0.0205 rec=24.1 lat=35.9 ms (max 135)
+L_max=8                                  T=0.5238±0.0163 ratio=1.0054±0.0071 rec=26.3 lat=45.6 ms (max 131)
+L_max=16                                 T=0.5209±0.0139 ratio=1.0000±0.0000 rec=27.6 lat=66.2 ms (max 210)
+no lazy stop                             T=0.5209±0.0139 ratio=1.0000±0.0000 rec=27.6 lat=66.5 ms (max 210)
+amortization off (adopt all slices)      T=0.5477±0.0136 ratio=1.0516±0.0034 rec=52.1 lat=67.4 ms (max 212)
+first slice always charged               T=0.5247±0.0139 ratio=1.0072±0.0002 rec=30.6 lat=66.7 ms (max 213)
+no GHEM-AC first slice                   T=0.5267±0.0137 ratio=1.0112±0.0041 rec=32.9 lat=59.8 ms (max 217)
+|A|<=4                                   T=0.5191±0.0136 ratio=0.9966±0.0025 rec=27.1 lat=51.3 ms (max 178)
+|A|<=16                                  T=0.5211±0.0137 ratio=1.0003±0.0022 rec=28.9 lat=59.0 ms (max 187)
+|A| unrestricted                         T=0.5207±0.0138 ratio=0.9996±0.0025 rec=28.3 lat=70.1 ms (max 227)
+budget 5 ms                              T=1.0157±0.0834 ratio=1.9449±0.1092 rec=9.0 lat=12.5 ms (max 17)
+budget 10 ms                             T=1.0157±0.0834 ratio=1.9449±0.1092 rec=9.0 lat=12.5 ms (max 18)
+budget 20 ms                             T=0.7104±0.0576 ratio=1.3631±0.0993 rec=13.0 lat=16.4 ms (max 30)
+budget 40 ms                             T=0.5798±0.0222 ratio=1.1127±0.0251 rec=17.4 lat=22.8 ms (max 56)

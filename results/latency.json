@@ -1,0 +1,102 @@
+{
+  "rows": [
+    {
+      "N": 8,
+      "ghem_median_ms_single": 2.1,
+      "ghem_mean_ms_suite": 2.9,
+      "milp_median_wall_ms_single": 14.1,
+      "milp_mean_wall_ms_suite": 847.8,
+      "milp_median_solve_ms": 12.5,
+      "milp_median_build_ms": 1.4,
+      "phase_kind_timed": "EP"
+    },
+    {
+      "N": 12,
+      "ghem_median_ms_single": 2.4,
+      "ghem_mean_ms_suite": 3.5,
+      "milp_median_wall_ms_single": 16.2,
+      "milp_mean_wall_ms_suite": 21.9,
+      "milp_median_solve_ms": 14.3,
+      "milp_median_build_ms": 2.0,
+      "phase_kind_timed": "EP"
+    },
+    {
+      "N": 16,
+      "ghem_median_ms_single": 2.9,
+      "ghem_mean_ms_suite": 3.8,
+      "milp_median_wall_ms_single": 20.5,
+      "milp_mean_wall_ms_suite": 16.9,
+      "milp_median_solve_ms": 17.3,
+      "milp_median_build_ms": 3.2,
+      "phase_kind_timed": "EP"
+    },
+    {
+      "N": 20,
+      "ghem_median_ms_single": 3.1,
+      "ghem_mean_ms_suite": 5.0,
+      "milp_median_wall_ms_single": 28.8,
+      "milp_mean_wall_ms_suite": 20.2,
+      "milp_median_solve_ms": 25.2,
+      "milp_median_build_ms": 3.5,
+      "phase_kind_timed": "EP"
+    },
+    {
+      "N": 24,
+      "ghem_median_ms_single": 3.6,
+      "ghem_mean_ms_suite": 5.6,
+      "milp_median_wall_ms_single": 26.1,
+      "milp_mean_wall_ms_suite": 22.5,
+      "milp_median_solve_ms": 22.0,
+      "milp_median_build_ms": 4.1,
+      "phase_kind_timed": "EP"
+    },
+    {
+      "N": 28,
+      "ghem_median_ms_single": 6.9,
+      "ghem_mean_ms_suite": 7.0,
+      "milp_median_wall_ms_single": 32.2,
+      "milp_mean_wall_ms_suite": 25.5,
+      "milp_median_solve_ms": 25.6,
+      "milp_median_build_ms": 6.5,
+      "phase_kind_timed": "EP"
+    },
+    {
+      "N": 32,
+      "ghem_median_ms_single": 4.6,
+      "ghem_mean_ms_suite": 8.9,
+      "milp_median_wall_ms_single": 32.8,
+      "milp_mean_wall_ms_suite": 27.8,
+      "milp_median_solve_ms": 25.9,
+      "milp_median_build_ms": 5.9,
+      "phase_kind_timed": "EP"
+    },
+    {
+      "N": 64,
+      "ghem_median_ms_single": 10.7,
+      "ghem_mean_ms_suite": 24.4,
+      "milp_median_wall_ms_single": 56.9,
+      "milp_mean_wall_ms_suite": 48.4,
+      "milp_median_solve_ms": 44.0,
+      "milp_median_build_ms": 12.8,
+      "phase_kind_timed": "EP"
+    },
+    {
+      "N": 128,
+      "ghem_median_ms_single": 32.0,
+      "ghem_mean_ms_suite": 85.3,
+      "milp_median_wall_ms_single": 132.7,
+      "milp_mean_wall_ms_suite": 96.4,
+      "milp_median_solve_ms": 102.7,
+      "milp_median_build_ms": 30.1,
+      "phase_kind_timed": "EP"
+    }
+  ],
+  "methodology": {
+    "language": "Python 3 (CPython), unoptimized reference implementation",
+    "timer": "time.perf_counter",
+    "ghem": "warm start discarded; median of remaining single-phase reps; Table II uses mean over 12-phase suite wall times",
+    "milp": "PuLP model build + CBC solve included in wall; PULP_CBC_CMD timeLimit=120s gapRel=0 threads=1 msg=False",
+    "bisection_eps_s": 1e-09,
+    "destination_eps_capacity": true
+  }
+}

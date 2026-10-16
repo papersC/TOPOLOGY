@@ -1,0 +1,4 @@
+default L_max=32 {'mean_phase_s': 0.5123103346171436, 'n_reconfig': 89.8, 'phases_at_cap': 4.0}
+L_max=128 {'mean_phase_s': 0.48637358226622185, 'n_reconfig': 149.0, 'phases_at_cap': 0.0}
+no GHEM-AC first slice, L_max=32 {'mean_phase_s': 0.5170223168779458, 'n_reconfig': 108.2, 'phases_at_cap': 4.0}
+no GHEM-AC first slice, L_max=128 {'mean_phase_s': 0.4872368055671785, 'n_reconfig': 170.6, 'phases_at_cap': 0.0}

@@ -1,0 +1,56 @@
+{
+  "rows": [
+    {
+      "policy": "EPS Clos (packet-only)",
+      "mean_phase_s": 2.845,
+      "optical_pct": 0.0,
+      "gap_vs_milp_pct": null,
+      "speedup_vs_eps": 1.0
+    },
+    {
+      "policy": "Static OCS (splittable eval)",
+      "mean_phase_s": 2.241,
+      "optical_pct": 34.2,
+      "gap_vs_milp_pct": null,
+      "speedup_vs_eps": 1.27
+    },
+    {
+      "policy": "GHEM-AC free split",
+      "mean_phase_s": 1.143,
+      "optical_pct": 77.5,
+      "gap_vs_milp_pct": 0.0,
+      "speedup_vs_eps": 2.49
+    },
+    {
+      "policy": "GHEM-AC unsplittable",
+      "mean_phase_s": 1.282,
+      "optical_pct": 93.8,
+      "gap_vs_milp_pct": 0.0,
+      "speedup_vs_eps": 2.22
+    },
+    {
+      "policy": "MILP free split",
+      "mean_phase_s": 1.143,
+      "optical_pct": 68.4,
+      "gap_vs_milp_pct": 0.0,
+      "speedup_vs_eps": 2.49
+    },
+    {
+      "policy": "MILP unsplittable",
+      "mean_phase_s": 1.282,
+      "optical_pct": 69.4,
+      "gap_vs_milp_pct": 0.0,
+      "speedup_vs_eps": 2.22
+    }
+  ],
+  "attribution": {
+    "eps_mean_s": 2.8447613403017953,
+    "unsplit_mean_s": 1.281666272836477,
+    "split_mean_s": 1.1427773842201212,
+    "gain_total_s": 1.701983956081674,
+    "gain_topology_unsplittable_s": 1.5630950674653183,
+    "gain_from_splitting_s": 0.13888888861635573,
+    "fraction_of_gain_from_splitting": 0.08160411155467484,
+    "fraction_of_gain_from_topology": 0.9183958884453252
+  }
+}

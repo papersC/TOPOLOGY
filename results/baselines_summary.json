@@ -1,0 +1,584 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "params": {
+    "N": 32,
+    "K": 4,
+    "B_opt_gbps": 800,
+    "B_eps_gbps": 400,
+    "delta_s": 0.015,
+    "n_phases": 12
+  },
+  "notes": {
+    "convention": "packet layer counted only during transmission; T = transmission + delta per charged reconfiguration (all schemes)",
+    "rotor_duty_cycle": 0.9,
+    "solstice": "QuickStuff + BigSlice; up to K disjoint perfect matchings per slice; Solstice termination",
+    "eclipse": "greedy argmax gain/(alpha+delta); K rounds of Hungarian; best prefix for min completion",
+    "+LP": "configuration sequence kept; durations and optical/packet split re-optimised by LP; best prefix",
+    "ci": "Student-t 95% CI over seeds"
+  },
+  "summary": {
+    "EPS Clos": {
+      "mean_phase_s": {
+        "mean": 2.676782739211616,
+        "std": 0.14539192794284192,
+        "ci95_half": 0.10400711972630122
+      },
+      "max_phase_s": {
+        "mean": 6.527239375749609,
+        "std": 0.8119966028773441,
+        "ci95_half": 0.5808673774930273
+      },
+      "optical_pct": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci95_half": 0.0
+      },
+      "n_reconfig": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci95_half": 0.0
+      },
+      "speedup_vs_eps": {
+        "mean": 1.0,
+        "std": 0.0,
+        "ci95_half": 0.0
+      },
+      "mean_latency_ms": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci95_half": 0.0
+      },
+      "seed0": {
+        "mean_phase_s": 2.8447613403017953,
+        "max_phase_s": 7.527490218025969,
+        "optical_pct": 0.0,
+        "n_reconfig": 0,
+        "speedup_vs_eps": 1.0,
+        "mean_latency_ms": 0.0
+      }
+    },
+    "Static OCS": {
+      "mean_phase_s": {
+        "mean": 2.0731311853722847,
+        "std": 0.13120473287774173,
+        "ci95_half": 0.09385821176012886
+      },
+      "max_phase_s": {
+        "mean": 6.427222180540278,
+        "std": 0.8828196404823777,
+        "ci95_half": 0.6315311265456082
+      },
+      "optical_pct": {
+        "mean": 34.95992481890848,
+        "std": 0.45886026275514963,
+        "ci95_half": 0.32824885783741004
+      },
+      "n_reconfig": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci95_half": 0.0
+      },
+      "speedup_vs_eps": {
+        "mean": 1.2920648758876785,
+        "std": 0.02734130664157376,
+        "ci95_half": 0.019558792524311388
+      },
+      "mean_latency_ms": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci95_half": 0.0
+      },
+      "seed0": {
+        "mean_phase_s": 2.2413558913512017,
+        "max_phase_s": 7.527490218025969,
+        "optical_pct": 34.156240058636065,
+        "n_reconfig": 0,
+        "speedup_vs_eps": 1.2692144747199565,
+        "mean_latency_ms": 0.0
+      }
+    },
+    "RotorNet-style": {
+      "mean_phase_s": {
+        "mean": 1.3480474311438166,
+        "std": 0.022434739696770317,
+        "ci95_half": 0.01604884597573886
+      },
+      "max_phase_s": {
+        "mean": 2.219155092465643,
+        "std": 0.14027480919246688,
+        "ci95_half": 0.10034655348954845
+      },
+      "optical_pct": {
+        "mean": 44.381717953937724,
+        "std": 0.7672580349748278,
+        "ci95_half": 0.5488633339807248
+      },
+      "n_reconfig": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci95_half": 0.0
+      },
+      "speedup_vs_eps": {
+        "mean": 1.9850912329004555,
+        "std": 0.08930995979880449,
+        "ci95_half": 0.06388849651403722
+      },
+      "mean_latency_ms": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci95_half": 0.0
+      },
+      "seed0": {
+        "mean_phase_s": 1.387659193394475,
+        "max_phase_s": 2.4358266889278797,
+        "optical_pct": 45.404416622684366,
+        "n_reconfig": 0,
+        "speedup_vs_eps": 2.050043233845462,
+        "mean_latency_ms": 0.0
+      }
+    },
+    "MWM per phase": {
+      "mean_phase_s": {
+        "mean": 1.0313278657426381,
+        "std": 0.11731937410508875,
+        "ci95_half": 0.08392522447023121
+      },
+      "max_phase_s": {
+        "mean": 3.094319571145681,
+        "std": 0.567168811475932,
+        "ci95_half": 0.4057281261404819
+      },
+      "optical_pct": {
+        "mean": 76.87462836149344,
+        "std": 0.6012450986706986,
+        "ci95_half": 0.43010483351509793
+      },
+      "n_reconfig": {
+        "mean": 9.0,
+        "std": 0.0,
+        "ci95_half": 0.0
+      },
+      "speedup_vs_eps": {
+        "mean": 2.611501116642394,
+        "std": 0.16069146972271964,
+        "ci95_half": 0.11495175259672345
+      },
+      "mean_latency_ms": {
+        "mean": 0.06237355943691606,
+        "std": 0.0022440730060216693,
+        "ci95_half": 0.00160531312235995
+      },
+      "seed0": {
+        "mean_phase_s": 1.1581141084136042,
+        "max_phase_s": 3.861932111320669,
+        "optical_pct": 77.24581649140399,
+        "n_reconfig": 9,
+        "speedup_vs_eps": 2.456373961455816,
+        "mean_latency_ms": 0.061897332974088684
+      }
+    },
+    "Solstice-K": {
+      "mean_phase_s": {
+        "mean": 1.123775009100345,
+        "std": 0.04460068971853813,
+        "ci95_half": 0.031905411401211066
+      },
+      "max_phase_s": {
+        "mean": 2.5646567788390167,
+        "std": 0.33973488701636356,
+        "ci95_half": 0.24303169762631915
+      },
+      "optical_pct": {
+        "mean": 83.27935311741315,
+        "std": 1.217427450670032,
+        "ci95_half": 0.8708951343550679
+      },
+      "n_reconfig": {
+        "mean": 46.8,
+        "std": 5.959119994689746,
+        "ci95_half": 4.262897641709181
+      },
+      "speedup_vs_eps": {
+        "mean": 2.382584596289504,
+        "std": 0.10467127987153581,
+        "ci95_half": 0.07487732291289137
+      },
+      "mean_latency_ms": {
+        "mean": 1.5781025247027478,
+        "std": 0.1710152807435983,
+        "ci95_half": 0.12233696210644508
+      },
+      "seed0": {
+        "mean_phase_s": 1.1253334832015642,
+        "max_phase_s": 2.603872919284135,
+        "optical_pct": 83.40475382654189,
+        "n_reconfig": 38,
+        "speedup_vs_eps": 2.527927394649694,
+        "mean_latency_ms": 1.3012446676536154
+      }
+    },
+    "Solstice-K+LP": {
+      "mean_phase_s": {
+        "mean": 0.920809194681477,
+        "std": 0.053420511204306555,
+        "ci95_half": 0.03821473161048396
+      },
+      "max_phase_s": {
+        "mean": 2.3338215283479284,
+        "std": 0.3050035272492761,
+        "ci95_half": 0.21818637956318146
+      },
+      "optical_pct": {
+        "mean": 53.622924816481465,
+        "std": 2.0256530827257326,
+        "ci95_half": 1.449064921828619
+      },
+      "n_reconfig": {
+        "mean": 37.7,
+        "std": 3.0203016773531455,
+        "ci95_half": 2.1605936630093545
+      },
+      "speedup_vs_eps": {
+        "mean": 2.909766291445757,
+        "std": 0.120601975689514,
+        "ci95_half": 0.08627345618320005
+      },
+      "mean_latency_ms": {
+        "mean": 19.777781942684673,
+        "std": 5.9226754708281755,
+        "ci95_half": 4.236826799879993
+      },
+      "seed0": {
+        "mean_phase_s": 0.9479578185617057,
+        "max_phase_s": 2.421022839710746,
+        "optical_pct": 53.032489982843856,
+        "n_reconfig": 34,
+        "speedup_vs_eps": 3.0009366288238706,
+        "mean_latency_ms": 12.225602088922946
+      }
+    },
+    "Eclipse-K": {
+      "mean_phase_s": {
+        "mean": 0.6896199759331572,
+        "std": 0.018287693172814295,
+        "ci95_half": 0.013082227605445283
+      },
+      "max_phase_s": {
+        "mean": 1.0233165545083462,
+        "std": 0.01879264336275679,
+        "ci95_half": 0.013443447210991845
+      },
+      "optical_pct": {
+        "mean": 99.3630688795013,
+        "std": 0.13727807514581572,
+        "ci95_half": 0.09820281909391913
+      },
+      "n_reconfig": {
+        "mean": 41.5,
+        "std": 2.8771127502720115,
+        "ci95_half": 2.0581624751633356
+      },
+      "speedup_vs_eps": {
+        "mean": 3.8793615300716944,
+        "std": 0.12247584623515928,
+        "ci95_half": 0.08761394241892242
+      },
+      "mean_latency_ms": {
+        "mean": 12.407161682494918,
+        "std": 0.611709771361568,
+        "ci95_half": 0.43759080939323397
+      },
+      "seed0": {
+        "mean_phase_s": 0.7064908471140758,
+        "max_phase_s": 1.0226298722906115,
+        "optical_pct": 99.52825686073331,
+        "n_reconfig": 44,
+        "speedup_vs_eps": 4.026607495231225,
+        "mean_latency_ms": 12.595093076621803
+      }
+    },
+    "Eclipse-K+LP": {
+      "mean_phase_s": {
+        "mean": 0.5267064646304628,
+        "std": 0.019175489901819442,
+        "ci95_half": 0.013717319126637281
+      },
+      "max_phase_s": {
+        "mean": 0.8484617242683908,
+        "std": 0.09247639951359526,
+        "ci95_half": 0.06615363103135259
+      },
+      "optical_pct": {
+        "mean": 72.11286989316152,
+        "std": 0.8479050203161458,
+        "ci95_half": 0.6065547118903516
+      },
+      "n_reconfig": {
+        "mean": 32.9,
+        "std": 3.6347092196090616,
+        "ci95_half": 2.6001143414425876
+      },
+      "speedup_vs_eps": {
+        "mean": 5.079210911434242,
+        "std": 0.0953360793653454,
+        "ci95_half": 0.06819932276216721
+      },
+      "mean_latency_ms": {
+        "mean": 43.05745162807095,
+        "std": 3.0290472913993116,
+        "ci95_half": 2.1668498984142337
+      },
+      "seed0": {
+        "mean_phase_s": 0.5464937685482151,
+        "max_phase_s": 0.9713878020028855,
+        "optical_pct": 71.6197800448872,
+        "n_reconfig": 34,
+        "speedup_vs_eps": 5.205478093298355,
+        "mean_latency_ms": 45.11295116875166
+      }
+    },
+    "SAD-OTR (GHEM-AC)": {
+      "mean_phase_s": {
+        "mean": 1.0156580784958313,
+        "std": 0.11664733358723978,
+        "ci95_half": 0.08344447564469583
+      },
+      "max_phase_s": {
+        "mean": 3.049842014638103,
+        "std": 0.6047796619250141,
+        "ci95_half": 0.43263330774866265
+      },
+      "optical_pct": {
+        "mean": 77.14007088601309,
+        "std": 0.5917758911484748,
+        "ci95_half": 0.4233309705200058
+      },
+      "n_reconfig": {
+        "mean": 9.0,
+        "std": 0.0,
+        "ci95_half": 0.0
+      },
+      "speedup_vs_eps": {
+        "mean": 2.6523631959474847,
+        "std": 0.1673366010259359,
+        "ci95_half": 0.11970539316556106
+      },
+      "mean_latency_ms": {
+        "mean": 7.700813454478824,
+        "std": 1.4365544604830758,
+        "ci95_half": 1.0276491541095305
+      },
+      "seed0": {
+        "mean_phase_s": 1.1427773842201212,
+        "max_phase_s": 3.861932111320669,
+        "optical_pct": 77.48574745236165,
+        "n_reconfig": 9,
+        "speedup_vs_eps": 2.489339900826948,
+        "mean_latency_ms": 6.774145163944922
+      }
+    },
+    "SAD-OTR-TM": {
+      "mean_phase_s": {
+        "mean": 0.5209029250495139,
+        "std": 0.019448005712838317,
+        "ci95_half": 0.013912265194035829
+      },
+      "max_phase_s": {
+        "mean": 0.8448652318435922,
+        "std": 0.10285481467278733,
+        "ci95_half": 0.07357790198851126
+      },
+      "optical_pct": {
+        "mean": 72.09266617003246,
+        "std": 0.9868373560390101,
+        "ci95_half": 0.7059409177123375
+      },
+      "n_reconfig": {
+        "mean": 27.6,
+        "std": 2.836272984824353,
+        "ci95_half": 2.0289474669121312
+      },
+      "speedup_vs_eps": {
+        "mean": 5.135879926100742,
+        "std": 0.09155927256392374,
+        "ci95_half": 0.06549755793425326
+      },
+      "mean_latency_ms": {
+        "mean": 67.66844130033859,
+        "std": 2.214917724253154,
+        "ci95_half": 1.5844566902013222
+      },
+      "seed0": {
+        "mean_phase_s": 0.5405147575768848,
+        "max_phase_s": 0.9713878020028854,
+        "optical_pct": 71.8277577273163,
+        "n_reconfig": 31,
+        "speedup_vs_eps": 5.263059519512094,
+        "mean_latency_ms": 67.64106250678499
+      }
+    },
+    "Ideal bound": {
+      "mean_phase_s": {
+        "mean": 0.4826054895420314,
+        "std": 0.01615465866031575,
+        "ci95_half": 0.011556346636255677
+      },
+      "max_phase_s": {
+        "mean": 0.7398854911357855,
+        "std": 0.06777303657449037,
+        "ci95_half": 0.04848190975216412
+      },
+      "optical_pct": {
+        "mean": NaN,
+        "std": NaN,
+        "ci95_half": NaN
+      },
+      "n_reconfig": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci95_half": 0.0
+      },
+      "speedup_vs_eps": {
+        "mean": 5.5430434289139,
+        "std": 0.1155627510960123,
+        "ci95_half": 0.0826686120695014
+      },
+      "mean_latency_ms": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci95_half": 0.0
+      },
+      "seed0": {
+        "mean_phase_s": 0.5012697785520513,
+        "max_phase_s": 0.8363878020028854,
+        "optical_pct": NaN,
+        "n_reconfig": 0,
+        "speedup_vs_eps": 5.675110413636074,
+        "mean_latency_ms": 0.0
+      }
+    }
+  },
+  "paired": {
+    "EPS Clos": {
+      "ratio_to_ghem": {
+        "mean": 2.6523631959474847,
+        "ci95_half": 0.11970539316556106
+      },
+      "ratio_to_tm": {
+        "mean": 5.135879926100742,
+        "ci95_half": 0.06549755793425326
+      }
+    },
+    "Static OCS": {
+      "ratio_to_ghem": {
+        "mean": 2.0532828511383423,
+        "ci95_half": 0.092973820065118
+      },
+      "ratio_to_tm": {
+        "mean": 3.977003641584747,
+        "ci95_half": 0.09109394575911153
+      }
+    },
+    "RotorNet-style": {
+      "ratio_to_ghem": {
+        "mean": 1.3417665962039647,
+        "ci95_half": 0.10165922131065652
+      },
+      "ratio_to_tm": {
+        "mean": 2.590252285817886,
+        "ci95_half": 0.05540423398169297
+      }
+    },
+    "MWM per phase": {
+      "ratio_to_ghem": {
+        "mean": 1.0156504848044854,
+        "ci95_half": 0.010104075007565301
+      },
+      "ratio_to_tm": {
+        "mean": 1.9750287179915549,
+        "ci95_half": 0.10964941050568991
+      }
+    },
+    "Solstice-K": {
+      "ratio_to_ghem": {
+        "mean": 1.1167876210273109,
+        "ci95_half": 0.07617577076375028
+      },
+      "ratio_to_tm": {
+        "mean": 2.1584579974517375,
+        "ci95_half": 0.05610328656570298
+      }
+    },
+    "Solstice-K+LP": {
+      "ratio_to_ghem": {
+        "mean": 0.9131419637669754,
+        "ci95_half": 0.051282957600895886
+      },
+      "ratio_to_tm": {
+        "mean": 1.767556242111175,
+        "ci95_half": 0.05264546771711635
+      }
+    },
+    "Eclipse-K": {
+      "ratio_to_ghem": {
+        "mean": 0.6854816313153893,
+        "ci95_half": 0.045932597635376694
+      },
+      "ratio_to_tm": {
+        "mean": 1.324485896465898,
+        "ci95_half": 0.016496192964047307
+      }
+    },
+    "Eclipse-K+LP": {
+      "ratio_to_ghem": {
+        "mean": 0.5228742100494611,
+        "ci95_half": 0.030109222408677885
+      },
+      "ratio_to_tm": {
+        "mean": 1.0111875759609137,
+        "ci95_half": 0.004064430774624002
+      }
+    },
+    "SAD-OTR (GHEM-AC)": {
+      "ratio_to_ghem": {
+        "mean": 1.0,
+        "ci95_half": 0.0
+      },
+      "ratio_to_tm": {
+        "mean": 1.944902276190908,
+        "ci95_half": 0.1092318921262688
+      }
+    },
+    "SAD-OTR-TM": {
+      "ratio_to_ghem": {
+        "mean": 0.5170102395505187,
+        "ci95_half": 0.0288556882973422
+      },
+      "ratio_to_tm": {
+        "mean": 1.0,
+        "ci95_half": 0.0
+      }
+    },
+    "Ideal bound": {
+      "ratio_to_ghem": {
+        "mean": 0.47919776165506567,
+        "ci95_half": 0.028142924528474507
+      },
+      "ratio_to_tm": {
+        "mean": 0.9266090175112133,
+        "ci95_half": 0.003933507760444365
+      }
+    }
+  }
+}

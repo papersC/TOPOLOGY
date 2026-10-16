@@ -1,0 +1,66 @@
+% significance
+TM vs Eclipse-K+LP & $0.989\pm0.004$ & 10/10 & $4.5\times10^{-4}$ & 0.018 & -2.0 \\
+TM vs Eclipse-K & $0.755\pm0.009$ & 10/10 & $1.8\times10^{-11}$ & 0.018 & -16.3 \\
+TM vs GHEM-AC & $0.517\pm0.029$ & 10/10 & $4.1\times10^{-9}$ & 0.018 & -8.5 \\
+TM vs Solstice-K+LP & $0.567\pm0.016$ & 10/10 & $6.4\times10^{-11}$ & 0.018 & -13.9 \\
+GHEM-AC vs MWM & $0.985\pm0.010$ & 10/10 & 0.013 & 0.018 & -1.1 \\
+GHEM-AC vs RotorNet & $0.753\pm0.057$ & 10/10 & $5.0\times10^{-5}$ & 0.018 & -2.7 \\
+GHEM-AC vs Static OCS & $0.489\pm0.022$ & 10/10 & $3.8\times10^{-10}$ & 0.018 & -11.3 \\
+GHEM-AC vs Solstice-K & $0.903\pm0.062$ & 9/10 & 0.013 & 0.018 & -1.1 \\
+Eclipse-K vs GHEM-AC & $0.685\pm0.046$ & 10/10 & $2.0\times10^{-6}$ & 0.018 & -4.1 \\
+% tm ablation
+default (L_max=32) & $0.521\pm0.014$ & $1.000\pm0.000$ & 27.6 & 66.5 (263) \\
+L_max=1 & $1.016\pm0.083$ & $1.945\pm0.109$ & 9.0 & 10.1 (15) \\
+L_max=2 & $0.710\pm0.058$ & $1.363\pm0.099$ & 13.0 & 14.2 (22) \\
+L_max=3 & $0.605\pm0.034$ & $1.160\pm0.052$ & 15.9 & 18.9 (39) \\
+L_max=4 & $0.571\pm0.030$ & $1.095\pm0.036$ & 18.6 & 24.1 (59) \\
+L_max=6 & $0.535\pm0.019$ & $1.028\pm0.020$ & 24.1 & 35.9 (135) \\
+L_max=8 & $0.524\pm0.016$ & $1.005\pm0.007$ & 26.3 & 45.6 (131) \\
+L_max=16 & $0.521\pm0.014$ & $1.000\pm0.000$ & 27.6 & 66.2 (210) \\
+no lazy stop & $0.521\pm0.014$ & $1.000\pm0.000$ & 27.6 & 66.5 (210) \\
+amortization off (adopt all slices) & $0.548\pm0.014$ & $1.052\pm0.003$ & 52.1 & 67.4 (212) \\
+first slice always charged & $0.525\pm0.014$ & $1.007\pm0.000$ & 30.6 & 66.7 (213) \\
+no GHEM-AC first slice & $0.527\pm0.014$ & $1.011\pm0.004$ & 32.9 & 59.8 (217) \\
+|A|<=4 & $0.519\pm0.014$ & $0.997\pm0.003$ & 27.1 & 51.3 (178) \\
+|A|<=16 & $0.521\pm0.014$ & $1.000\pm0.002$ & 28.9 & 59.0 (187) \\
+|A| unrestricted & $0.521\pm0.014$ & $1.000\pm0.002$ & 28.3 & 70.1 (227) \\
+budget 5 ms & $1.016\pm0.083$ & $1.945\pm0.109$ & 9.0 & 12.5 (17) \\
+budget 10 ms & $1.016\pm0.083$ & $1.945\pm0.109$ & 9.0 & 12.5 (18) \\
+budget 20 ms & $0.710\pm0.058$ & $1.363\pm0.099$ & 13.0 & 16.4 (30) \\
+budget 40 ms & $0.580\pm0.022$ & $1.113\pm0.025$ & 17.4 & 22.8 (56) \\
+% llm delta=15
+EPS Clos & $93.8\pm1.0$ & 1.00 & 2.493 & 0.0 & 0.0 & 0.0 \\
+Static OCS & $65.2\pm2.0$ & 1.44 & 1.733 & 51.0 & 0.0 & 0.0 \\
+RotorNet-style & $49.3\pm0.4$ & 1.90 & 1.310 & 56.7 & 0.0 & 0.0 \\
+MWM per phase & $50.5\pm0.4$ & 1.86 & 1.341 & 62.7 & 12.0 & 0.1 \\
+Solstice-K & $114.1\pm6.4$ & 0.83 & 3.033 & 87.0 & 68.2 & 2.2 \\
+Solstice-K+LP & $67.2\pm2.1$ & 1.40 & 1.786 & 58.0 & 27.5 & 18.8 \\
+Eclipse-K & $48.9\pm0.5$ & 1.92 & 1.299 & 98.9 & 20.0 & 9.3 \\
+Eclipse-K+LP & $42.4\pm0.1$ & 2.21 & 1.129 & 77.8 & 20.0 & 16.7 \\
+SAD-OTR (GHEM-AC) & $46.1\pm0.7$ & 2.03 & 1.226 & 62.3 & 8.0 & 6.1 \\
+SAD-OTR-TM & $37.6\pm0.4$ & 2.49 & 1.000 & 77.7 & 16.1 & 20.0 \\
+Ideal bound & $16.5\pm0.1$ & 5.69 & 0.438 & -- & 0.0 & 0.0 \\
+% llm delta=1.0
+%  EPS Clos: 93.8 ms x1.00 rec 0.0 /TM 4.905
+%  Static OCS: 64.7 ms x1.45 rec 0.0 /TM 3.386
+%  RotorNet-style: 49.3 ms x1.90 rec 0.0 /TM 2.578
+%  MWM per phase: 36.4 ms x2.57 rec 12.0 /TM 1.907
+%  Solstice-K: 34.5 ms x2.72 rec 68.4 /TM 1.803
+%  Solstice-K+LP: 27.0 ms x3.47 rec 54.6 /TM 1.413
+%  Eclipse-K: 25.2 ms x3.72 rec 39.4 /TM 1.319
+%  Eclipse-K+LP: 19.1 ms x4.90 rec 20.0 /TM 1.000
+%  SAD-OTR (GHEM-AC): 36.5 ms x2.57 rec 9.2 /TM 1.909
+%  SAD-OTR-TM: 19.1 ms x4.90 rec 20.0 /TM 1.000
+%  Ideal bound: 16.5 ms x5.69 rec 0.0 /TM 0.862
+% llm delta=100.0
+%  EPS Clos: 93.8 ms x1.00 rec 0.0 /TM 1.097
+%  Static OCS: 64.7 ms x1.45 rec 0.0 /TM 0.757
+%  RotorNet-style: 49.3 ms x1.90 rec 0.0 /TM 0.577
+%  MWM per phase: 135.4 ms x0.69 rec 12.0 /TM 1.585
+%  Solstice-K: 598.8 ms x0.16 rec 68.4 /TM 7.013
+%  Solstice-K+LP: 85.5 ms x1.10 rec 1.0 /TM 1.000
+%  Eclipse-K: 89.6 ms x1.05 rec 1.0 /TM 1.049
+%  Eclipse-K+LP: 85.5 ms x1.10 rec 1.0 /TM 1.000
+%  SAD-OTR (GHEM-AC): 85.5 ms x1.10 rec 1.0 /TM 1.000
+%  SAD-OTR-TM: 85.5 ms x1.10 rec 1.0 /TM 1.000
+%  Ideal bound: 16.5 ms x5.69 rec 0.0 /TM 0.193

@@ -1,0 +1,179 @@
+{
+  "fabric_default": {
+    "N": 32,
+    "K": 4,
+    "B_opt": 800.0,
+    "B_eps": 400.0,
+    "delta": 0.015,
+    "n_phases": 12,
+    "seed": 0
+  },
+  "units": {
+    "demand": "Gb per (src,dst) rack pair",
+    "B_opt/B_eps": "Gbps",
+    "delta": "s"
+  },
+  "primary_generator": {
+    "TP": "ring i->i+1, 200 Gb",
+    "EP": "4 distinct uniform destinations, U[100,400] Gb",
+    "PP": "stage chain i->i+1, 800 Gb",
+    "cycle": "TP,EP,PP x4",
+    "n_phases": 12
+  },
+  "skewed_generator": {
+    "EP": "8 destinations, Zipf(1.0) popularity, U[100,400] Gb",
+    "other": "as primary"
+  },
+  "llm_config": {
+    "model": "DeepSeek-V3 dimensions (arXiv:2412.19437)",
+    "n_layers": 61,
+    "n_dense_layers": 3,
+    "hidden": 7168,
+    "n_routed_experts": 256,
+    "expert_inter": 2048,
+    "top_k": 8,
+    "n_groups": 8,
+    "max_groups_per_token": 4,
+    "total_params": 671000000000.0,
+    "PP": 4,
+    "EP": 8,
+    "tokens_per_microbatch_per_rack": 65536,
+    "bytes_act": 2,
+    "bytes_grad": 2,
+    "sigma_pop": 1.0,
+    "sample_tokens": 4096,
+    "phase_pattern": [
+      "EPD",
+      "EPC",
+      "PP",
+      "EPD",
+      "EPC",
+      "PP",
+      "EPD",
+      "EPC",
+      "PP",
+      "EPD",
+      "EPC",
+      "DP"
+    ]
+  },
+  "seeds": {
+    "tab:agg, tab:split, tab:k, tab:beps, volume and delta sweeps (seed 0)": [
+      0
+    ],
+    "tab:baselines, tab:sig, tab:tmabl, fig_baselines(a), fig_robust": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "fig_baselines(b) delta sweep, tm_smalldelta": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "tab:opt": {
+      "N": [
+        8,
+        12,
+        16,
+        20,
+        24,
+        28,
+        32
+      ],
+      "seed": [
+        0
+      ]
+    },
+    "tab:scal, fig_scalability": {
+      "N<=128": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "N=256": [
+        0,
+        1,
+        2
+      ]
+    },
+    "tab:llm (delta=15 ms)": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "llm delta 1 and 100 ms": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "sweeps": {
+    "delta_ms_baselines": [
+      0.1,
+      1,
+      5,
+      15,
+      50,
+      100,
+      200,
+      500,
+      1000
+    ],
+    "K": [
+      1,
+      2,
+      4,
+      6,
+      8,
+      12,
+      16
+    ],
+    "B_eps_gbps": [
+      100,
+      200,
+      400,
+      800,
+      1600
+    ],
+    "robust_volume_f": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5
+    ],
+    "robust_fanout_p": [
+      0.1,
+      0.2,
+      0.3,
+      0.5
+    ],
+    "robust_rng_seed": "1000*seed + int(100*level) + (0 if volume else 500)"
+  },
+  "solvers": {
+    "MILP": "CBC via PuLP, gap 0, 1 thread, 120 s (60 s scalability)",
+    "LP": "HiGHS via SciPy"
+  }
+}

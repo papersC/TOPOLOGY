@@ -1,0 +1,1224 @@
+{
+ "primary": {
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "per_seed": {
+   "0": {
+    "input_equals_generator": true,
+    "EPS Clos": {
+     "reproduced_s": 2.8447613403017953,
+     "stored_s": 2.8447613403017953,
+     "match": true
+    },
+    "Static OCS": {
+     "reproduced_s": 2.2413558913512017,
+     "stored_s": 2.2413558913512017,
+     "match": true
+    },
+    "RotorNet-style": {
+     "reproduced_s": 1.387659193394475,
+     "stored_s": 1.387659193394475,
+     "match": true
+    },
+    "MWM per phase": {
+     "reproduced_s": 1.1581141084136042,
+     "stored_s": 1.1581141084136042,
+     "match": true
+    },
+    "Solstice-K": {
+     "reproduced_s": 1.1253334832015642,
+     "stored_s": 1.1253334832015642,
+     "match": true
+    },
+    "Solstice-K+LP": {
+     "reproduced_s": 0.9479578185617057,
+     "stored_s": 0.9479578185617057,
+     "match": true
+    },
+    "Eclipse-K": {
+     "reproduced_s": 0.7064908471140758,
+     "stored_s": 0.7064908471140758,
+     "match": true
+    },
+    "Eclipse-K+LP": {
+     "reproduced_s": 0.5464937685482151,
+     "stored_s": 0.5464937685482151,
+     "match": true
+    },
+    "SAD-OTR (GHEM-AC)": {
+     "reproduced_s": 1.1427773842201212,
+     "stored_s": 1.1427773842201212,
+     "match": true
+    },
+    "SAD-OTR-TM": {
+     "reproduced_s": 0.5405147575768848,
+     "stored_s": 0.5405147575768848,
+     "match": true
+    },
+    "Ideal bound": {
+     "reproduced_s": 0.5012697785520513,
+     "stored_s": 0.5012697785520513,
+     "match": true
+    }
+   },
+   "1": {
+    "input_equals_generator": true,
+    "EPS Clos": {
+     "reproduced_s": 2.694284968561398,
+     "stored_s": 2.694284968561398,
+     "match": true
+    },
+    "Static OCS": {
+     "reproduced_s": 2.1387294132128027,
+     "stored_s": 2.1387294132128027,
+     "match": true
+    },
+    "RotorNet-style": {
+     "reproduced_s": 1.3539516409166261,
+     "stored_s": 1.3539516409166261,
+     "match": true
+    },
+    "MWM per phase": {
+     "reproduced_s": 1.0346639339692818,
+     "stored_s": 1.0346639339692818,
+     "match": true
+    },
+    "Solstice-K": {
+     "reproduced_s": 1.1441711964701478,
+     "stored_s": 1.1441711964701478,
+     "match": true
+    },
+    "Solstice-K+LP": {
+     "reproduced_s": 0.9001652846454514,
+     "stored_s": 0.9001652846454514,
+     "match": true
+    },
+    "Eclipse-K": {
+     "reproduced_s": 0.6827418965321731,
+     "stored_s": 0.6827418965321731,
+     "match": true
+    },
+    "Eclipse-K+LP": {
+     "reproduced_s": 0.5270750589499849,
+     "stored_s": 0.5270750589499849,
+     "match": true
+    },
+    "SAD-OTR (GHEM-AC)": {
+     "reproduced_s": 1.00499665470421,
+     "stored_s": 1.00499665470421,
+     "match": true
+    },
+    "SAD-OTR-TM": {
+     "reproduced_s": 0.5202072970991358,
+     "stored_s": 0.5202072970991358,
+     "match": true
+    },
+    "Ideal bound": {
+     "reproduced_s": 0.48455018169200725,
+     "stored_s": 0.48455018169200725,
+     "match": true
+    }
+   },
+   "2": {
+    "input_equals_generator": true,
+    "EPS Clos": {
+     "reproduced_s": 2.464581630140472,
+     "stored_s": 2.464581630140472,
+     "match": true
+    },
+    "Static OCS": {
+     "reproduced_s": 1.8657330139234878,
+     "stored_s": 1.8657330139234878,
+     "match": true
+    },
+    "RotorNet-style": {
+     "reproduced_s": 1.3078746250094586,
+     "stored_s": 1.3078746250094586,
+     "match": true
+    },
+    "MWM per phase": {
+     "reproduced_s": 0.9068142616986888,
+     "stored_s": 0.9068142616986888,
+     "match": true
+    },
+    "Solstice-K": {
+     "reproduced_s": 1.12958344504041,
+     "stored_s": 1.12958344504041,
+     "match": true
+    },
+    "Solstice-K+LP": {
+     "reproduced_s": 0.9357477681326092,
+     "stored_s": 0.9357477681326092,
+     "match": true
+    },
+    "Eclipse-K": {
+     "reproduced_s": 0.6579618906918369,
+     "stored_s": 0.6579618906918369,
+     "match": true
+    },
+    "Eclipse-K+LP": {
+     "reproduced_s": 0.495284772632061,
+     "stored_s": 0.495284772632061,
+     "match": true
+    },
+    "SAD-OTR (GHEM-AC)": {
+     "reproduced_s": 0.8986833449953382,
+     "stored_s": 0.8986833449953382,
+     "match": true
+    },
+    "SAD-OTR-TM": {
+     "reproduced_s": 0.4917386434049704,
+     "stored_s": 0.4917386434049704,
+     "match": true
+    },
+    "Ideal bound": {
+     "reproduced_s": 0.4590275885341266,
+     "stored_s": 0.4590275885341266,
+     "match": true
+    }
+   },
+   "3": {
+    "input_equals_generator": true,
+    "EPS Clos": {
+     "reproduced_s": 2.8995143927511466,
+     "stored_s": 2.8995143927511466,
+     "match": true
+    },
+    "Static OCS": {
+     "reproduced_s": 2.2596242874238817,
+     "stored_s": 2.2596242874238817,
+     "match": true
+    },
+    "RotorNet-style": {
+     "reproduced_s": 1.3625732046844459,
+     "stored_s": 1.3625732046844459,
+     "match": true
+    },
+    "MWM per phase": {
+     "reproduced_s": 1.2173245169567841,
+     "stored_s": 1.2173245169567841,
+     "match": true
+    },
+    "Solstice-K": {
+     "reproduced_s": 1.2159305442640707,
+     "stored_s": 1.2159305442640707,
+     "match": true
+    },
+    "Solstice-K+LP": {
+     "reproduced_s": 1.037311478490128,
+     "stored_s": 1.037311478490128,
+     "match": true
+    },
+    "Eclipse-K": {
+     "reproduced_s": 0.7206542129123522,
+     "stored_s": 0.7206542129123522,
+     "match": true
+    },
+    "Eclipse-K+LP": {
+     "reproduced_s": 0.5580631487651752,
+     "stored_s": 0.5580631487651752,
+     "match": true
+    },
+    "SAD-OTR (GHEM-AC)": {
+     "reproduced_s": 1.1940466767966187,
+     "stored_s": 1.1940466767966187,
+     "match": true
+    },
+    "SAD-OTR-TM": {
+     "reproduced_s": 0.5488868102974359,
+     "stored_s": 0.5488868102974359,
+     "match": true
+    },
+    "Ideal bound": {
+     "reproduced_s": 0.5073534510464237,
+     "stored_s": 0.5073534510464237,
+     "match": true
+    }
+   },
+   "4": {
+    "input_equals_generator": true,
+    "EPS Clos": {
+     "reproduced_s": 2.565147959948954,
+     "stored_s": 2.565147959948954,
+     "match": true
+    },
+    "Static OCS": {
+     "reproduced_s": 1.947279904477094,
+     "stored_s": 1.947279904477094,
+     "match": true
+    },
+    "RotorNet-style": {
+     "reproduced_s": 1.3685509696665115,
+     "stored_s": 1.3685509696665115,
+     "match": true
+    },
+    "MWM per phase": {
+     "reproduced_s": 0.8943219014214906,
+     "stored_s": 0.8943219014214906,
+     "match": true
+    },
+    "Solstice-K": {
+     "reproduced_s": 1.1325375040747936,
+     "stored_s": 1.1325375040747936,
+     "match": true
+    },
+    "Solstice-K+LP": {
+     "reproduced_s": 0.8595547436647198,
+     "stored_s": 0.8595547436647198,
+     "match": true
+    },
+    "Eclipse-K": {
+     "reproduced_s": 0.6814048594470483,
+     "stored_s": 0.6814048594470483,
+     "match": true
+    },
+    "Eclipse-K+LP": {
+     "reproduced_s": 0.5145925137846407,
+     "stored_s": 0.5145925137846407,
+     "match": true
+    },
+    "SAD-OTR (GHEM-AC)": {
+     "reproduced_s": 0.8934656988380837,
+     "stored_s": 0.8934656988380837,
+     "match": true
+    },
+    "SAD-OTR-TM": {
+     "reproduced_s": 0.5049036429606552,
+     "stored_s": 0.5049036429606552,
+     "match": true
+    },
+    "Ideal bound": {
+     "reproduced_s": 0.4702016251795135,
+     "stored_s": 0.4702016251795135,
+     "match": true
+    }
+   },
+   "5": {
+    "input_equals_generator": true,
+    "EPS Clos": {
+     "reproduced_s": 2.569454198836248,
+     "stored_s": 2.569454198836248,
+     "match": true
+    },
+    "Static OCS": {
+     "reproduced_s": 1.9809048775442168,
+     "stored_s": 1.9809048775442168,
+     "match": true
+    },
+    "RotorNet-style": {
+     "reproduced_s": 1.3466302470506903,
+     "stored_s": 1.3466302470506903,
+     "match": true
+    },
+    "MWM per phase": {
+     "reproduced_s": 0.9522199919574036,
+     "stored_s": 0.9522199919574036,
+     "match": true
+    },
+    "Solstice-K": {
+     "reproduced_s": 1.0915667593271168,
+     "stored_s": 1.0915667593271168,
+     "match": true
+    },
+    "Solstice-K+LP": {
+     "reproduced_s": 0.8746493802339165,
+     "stored_s": 0.8746493802339165,
+     "match": true
+    },
+    "Eclipse-K": {
+     "reproduced_s": 0.6734891932925414,
+     "stored_s": 0.6734891932925414,
+     "match": true
+    },
+    "Eclipse-K+LP": {
+     "reproduced_s": 0.5168926206329092,
+     "stored_s": 0.5168926206329092,
+     "match": true
+    },
+    "SAD-OTR (GHEM-AC)": {
+     "reproduced_s": 0.9403215327395841,
+     "stored_s": 0.9403215327395841,
+     "match": true
+    },
+    "SAD-OTR-TM": {
+     "reproduced_s": 0.5092975800480312,
+     "stored_s": 0.5092975800480312,
+     "match": true
+    },
+    "Ideal bound": {
+     "reproduced_s": 0.4706800961669905,
+     "stored_s": 0.4706800961669905,
+     "match": true
+    }
+   },
+   "6": {
+    "input_equals_generator": true,
+    "EPS Clos": {
+     "reproduced_s": 2.5228288591660606,
+     "stored_s": 2.5228288591660606,
+     "match": true
+    },
+    "Static OCS": {
+     "reproduced_s": 1.9576962896719003,
+     "stored_s": 1.9576962896719003,
+     "match": true
+    },
+    "RotorNet-style": {
+     "reproduced_s": 1.3253846746440707,
+     "stored_s": 1.3253846746440707,
+     "match": true
+    },
+    "MWM per phase": {
+     "reproduced_s": 0.9105239464066012,
+     "stored_s": 0.9105239464066012,
+     "match": true
+    },
+    "Solstice-K": {
+     "reproduced_s": 1.0363411523890027,
+     "stored_s": 1.0363411523890027,
+     "match": true
+    },
+    "Solstice-K+LP": {
+     "reproduced_s": 0.854928197237223,
+     "stored_s": 0.854928197237223,
+     "match": true
+    },
+    "Eclipse-K": {
+     "reproduced_s": 0.6852645575000036,
+     "stored_s": 0.6852645575000036,
+     "match": true
+    },
+    "Eclipse-K+LP": {
+     "reproduced_s": 0.5064842894719555,
+     "stored_s": 0.5064842894719555,
+     "match": true
+    },
+    "SAD-OTR (GHEM-AC)": {
+     "reproduced_s": 0.8691198447293131,
+     "stored_s": 0.8691198447293131,
+     "match": true
+    },
+    "SAD-OTR-TM": {
+     "reproduced_s": 0.4989797369736541,
+     "stored_s": 0.4989797369736541,
+     "match": true
+    },
+    "Ideal bound": {
+     "reproduced_s": 0.46549950287030306,
+     "stored_s": 0.46549950287030306,
+     "match": true
+    }
+   },
+   "7": {
+    "input_equals_generator": true,
+    "EPS Clos": {
+     "reproduced_s": 2.664812878096552,
+     "stored_s": 2.664812878096552,
+     "match": true
+    },
+    "Static OCS": {
+     "reproduced_s": 2.109257322747957,
+     "stored_s": 2.109257322747957,
+     "match": true
+    },
+    "RotorNet-style": {
+     "reproduced_s": 1.3402652334277085,
+     "stored_s": 1.3402652334277085,
+     "match": true
+    },
+    "MWM per phase": {
+     "reproduced_s": 0.9944587784377102,
+     "stored_s": 0.9944587784377102,
+     "match": true
+    },
+    "Solstice-K": {
+     "reproduced_s": 1.1267524260835833,
+     "stored_s": 1.1267524260835833,
+     "match": true
+    },
+    "Solstice-K+LP": {
+     "reproduced_s": 0.9401004215868825,
+     "stored_s": 0.9401004215868825,
+     "match": true
+    },
+    "Eclipse-K": {
+     "reproduced_s": 0.6888733881422296,
+     "stored_s": 0.6888733881422296,
+     "match": true
+    },
+    "Eclipse-K+LP": {
+     "reproduced_s": 0.5259648200639572,
+     "stored_s": 0.5259648200639572,
+     "match": true
+    },
+    "SAD-OTR (GHEM-AC)": {
+     "reproduced_s": 0.9932764843585229,
+     "stored_s": 0.9932764843585229,
+     "match": true
+    },
+    "SAD-OTR-TM": {
+     "reproduced_s": 0.5213870129825381,
+     "stored_s": 0.5213870129825381,
+     "match": true
+    },
+    "Ideal bound": {
+     "reproduced_s": 0.481275504973691,
+     "stored_s": 0.481275504973691,
+     "match": true
+    }
+   },
+   "8": {
+    "input_equals_generator": true,
+    "EPS Clos": {
+     "reproduced_s": 2.79790062269211,
+     "stored_s": 2.79790062269211,
+     "match": true
+    },
+    "Static OCS": {
+     "reproduced_s": 2.0837919603654336,
+     "stored_s": 2.0837919603654336,
+     "match": true
+    },
+    "RotorNet-style": {
+     "reproduced_s": 1.3496349695751988,
+     "stored_s": 1.3496349695751988,
+     "match": true
+    },
+    "MWM per phase": {
+     "reproduced_s": 1.129954980972988,
+     "stored_s": 1.129954980972988,
+     "match": true
+    },
+    "Solstice-K": {
+     "reproduced_s": 1.1254572206745195,
+     "stored_s": 1.1254572206745195,
+     "match": true
+    },
+    "Solstice-K+LP": {
+     "reproduced_s": 0.9284102916438993,
+     "stored_s": 0.9284102916438993,
+     "match": true
+    },
+    "Eclipse-K": {
+     "reproduced_s": 0.7087111222458145,
+     "stored_s": 0.7087111222458145,
+     "match": true
+    },
+    "Eclipse-K+LP": {
+     "reproduced_s": 0.542264640750229,
+     "stored_s": 0.542264640750229,
+     "match": true
+    },
+    "SAD-OTR (GHEM-AC)": {
+     "reproduced_s": 1.1225805356447727,
+     "stored_s": 1.1225805356447727,
+     "match": true
+    },
+    "SAD-OTR-TM": {
+     "reproduced_s": 0.5399955493541398,
+     "stored_s": 0.5399955493541398,
+     "match": true
+    },
+    "Ideal bound": {
+     "reproduced_s": 0.4960630321509752,
+     "stored_s": 0.4960630321509752,
+     "match": true
+    }
+   },
+   "9": {
+    "input_equals_generator": true,
+    "EPS Clos": {
+     "reproduced_s": 2.7445405416214186,
+     "stored_s": 2.7445405416214186,
+     "match": true
+    },
+    "Static OCS": {
+     "reproduced_s": 2.1469388930048736,
+     "stored_s": 2.1469388930048736,
+     "match": true
+    },
+    "RotorNet-style": {
+     "reproduced_s": 1.3379495530689802,
+     "stored_s": 1.3379495530689802,
+     "match": true
+    },
+    "MWM per phase": {
+     "reproduced_s": 1.1148822371918266,
+     "stored_s": 1.1148822371918266,
+     "match": true
+    },
+    "Solstice-K": {
+     "reproduced_s": 1.1100763594782386,
+     "stored_s": 1.1100763594782386,
+     "match": true
+    },
+    "Solstice-K+LP": {
+     "reproduced_s": 0.929266562618234,
+     "stored_s": 0.929266562618234,
+     "match": true
+    },
+    "Eclipse-K": {
+     "reproduced_s": 0.690607791453496,
+     "stored_s": 0.690607791453496,
+     "match": true
+    },
+    "Eclipse-K+LP": {
+     "reproduced_s": 0.5339490127055005,
+     "stored_s": 0.5339490127055005,
+     "match": true
+    },
+    "SAD-OTR (GHEM-AC)": {
+     "reproduced_s": 1.0973126279317487,
+     "stored_s": 1.0973126279317487,
+     "match": true
+    },
+    "SAD-OTR-TM": {
+     "reproduced_s": 0.5331182197976926,
+     "stored_s": 0.5331182197976926,
+     "match": true
+    },
+    "Ideal bound": {
+     "reproduced_s": 0.49013413425423175,
+     "stored_s": 0.49013413425423175,
+     "match": true
+    }
+   }
+  },
+  "mean_over_seeds_s": {
+   "EPS Clos": 2.676782739211616,
+   "Static OCS": 2.0731311853722847,
+   "RotorNet-style": 1.3480474311438166,
+   "MWM per phase": 1.0313278657426381,
+   "Solstice-K": 1.123775009100345,
+   "Solstice-K+LP": 0.920809194681477,
+   "Eclipse-K": 0.6896199759331572,
+   "Eclipse-K+LP": 0.5267064646304628,
+   "SAD-OTR (GHEM-AC)": 1.0156580784958313,
+   "SAD-OTR-TM": 0.5209029250495139,
+   "Ideal bound": 0.4826054895420314
+  },
+  "TM_over_EclipseLP_mean_ratio": 0.9889643513568501,
+  "TM_faster_seeds": 10
+ },
+ "llm": {
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "per_seed": {
+   "0": {
+    "input_equals_generator": true,
+    "EPS Clos": {
+     "reproduced_s": 0.09280394890666667,
+     "stored_s": 0.09280394890666667,
+     "match": true
+    },
+    "Static OCS": {
+     "reproduced_s": 0.06740667388931397,
+     "stored_s": 0.06740667388931397,
+     "match": true
+    },
+    "RotorNet-style": {
+     "reproduced_s": 0.04891488719569139,
+     "stored_s": 0.04891488719569139,
+     "match": true
+    },
+    "MWM per phase": {
+     "reproduced_s": 0.05006464114251604,
+     "stored_s": 0.05006464114251604,
+     "match": true
+    },
+    "Solstice-K": {
+     "reproduced_s": 0.1317645289066667,
+     "stored_s": 0.1317645289066667,
+     "match": true
+    },
+    "Solstice-K+LP": {
+     "reproduced_s": 0.06925113526755557,
+     "stored_s": 0.06925113526755557,
+     "match": true
+    },
+    "Eclipse-K": {
+     "reproduced_s": 0.048466094773333336,
+     "stored_s": 0.048466094773333336,
+     "match": true
+    },
+    "Eclipse-K+LP": {
+     "reproduced_s": 0.04233196470755555,
+     "stored_s": 0.04233196470755555,
+     "match": true
+    },
+    "SAD-OTR (GHEM-AC)": {
+     "reproduced_s": 0.04550695453262062,
+     "stored_s": 0.04550695453262062,
+     "match": true
+    },
+    "SAD-OTR-TM": {
+     "reproduced_s": 0.037343433507555555,
+     "stored_s": 0.037343433507555555,
+     "match": true
+    },
+    "Ideal bound": {
+     "reproduced_s": 0.016372331982222224,
+     "stored_s": 0.016372331982222224,
+     "match": true
+    }
+   },
+   "1": {
+    "input_equals_generator": true,
+    "EPS Clos": {
+     "reproduced_s": 0.09411062752,
+     "stored_s": 0.09411062752,
+     "match": true
+    },
+    "Static OCS": {
+     "reproduced_s": 0.06608585031681559,
+     "stored_s": 0.06608585031681559,
+     "match": true
+    },
+    "RotorNet-style": {
+     "reproduced_s": 0.049412516647335265,
+     "stored_s": 0.049412516647335265,
+     "match": true
+    },
+    "MWM per phase": {
+     "reproduced_s": 0.05059220603061989,
+     "stored_s": 0.05059220603061989,
+     "match": true
+    },
+    "Solstice-K": {
+     "reproduced_s": 0.11379641072,
+     "stored_s": 0.11379641072,
+     "match": true
+    },
+    "Solstice-K+LP": {
+     "reproduced_s": 0.06588025654755557,
+     "stored_s": 0.06588025654755557,
+     "match": true
+    },
+    "Eclipse-K": {
+     "reproduced_s": 0.04938187845333334,
+     "stored_s": 0.04938187845333334,
+     "match": true
+    },
+    "Eclipse-K+LP": {
+     "reproduced_s": 0.04249203638755556,
+     "stored_s": 0.04249203638755556,
+     "match": true
+    },
+    "SAD-OTR (GHEM-AC)": {
+     "reproduced_s": 0.04591677304714414,
+     "stored_s": 0.04591677304714414,
+     "match": true
+    },
+    "SAD-OTR-TM": {
+     "reproduced_s": 0.037510550307555554,
+     "stored_s": 0.037510550307555554,
+     "match": true
+    },
+    "Ideal bound": {
+     "reproduced_s": 0.016517518494814816,
+     "stored_s": 0.016517518494814816,
+     "match": true
+    }
+   },
+   "2": {
+    "input_equals_generator": true,
+    "EPS Clos": {
+     "reproduced_s": 0.09311895861333334,
+     "stored_s": 0.09311895861333334,
+     "match": true
+    },
+    "Static OCS": {
+     "reproduced_s": 0.06324426396775636,
+     "stored_s": 0.06324426396775636,
+     "match": true
+    },
+    "RotorNet-style": {
+     "reproduced_s": 0.04903485403833461,
+     "stored_s": 0.04903485403833461,
+     "match": true
+    },
+    "MWM per phase": {
+     "reproduced_s": 0.050104399773573984,
+     "stored_s": 0.050104399773573984,
+     "match": true
+    },
+    "Solstice-K": {
+     "reproduced_s": 0.10740324186666667,
+     "stored_s": 0.10740324186666667,
+     "match": true
+    },
+    "Solstice-K+LP": {
+     "reproduced_s": 0.06633919244088889,
+     "stored_s": 0.06633919244088889,
+     "match": true
+    },
+    "Eclipse-K": {
+     "reproduced_s": 0.04872739226666667,
+     "stored_s": 0.04872739226666667,
+     "match": true
+    },
+    "Eclipse-K+LP": {
+     "reproduced_s": 0.04237221473422222,
+     "stored_s": 0.04237221473422222,
+     "match": true
+    },
+    "SAD-OTR (GHEM-AC)": {
+     "reproduced_s": 0.04758510120055152,
+     "stored_s": 0.04758510120055152,
+     "match": true
+    },
+    "SAD-OTR-TM": {
+     "reproduced_s": 0.03738713404521321,
+     "stored_s": 0.03738713404521321,
+     "match": true
+    },
+    "Ideal bound": {
+     "reproduced_s": 0.016407333060740742,
+     "stored_s": 0.016407333060740742,
+     "match": true
+    }
+   },
+   "3": {
+    "input_equals_generator": true,
+    "EPS Clos": {
+     "reproduced_s": 0.09253940192000003,
+     "stored_s": 0.09253940192000003,
+     "match": true
+    },
+    "Static OCS": {
+     "reproduced_s": 0.06250567332380616,
+     "stored_s": 0.06250567332380616,
+     "match": true
+    },
+    "RotorNet-style": {
+     "reproduced_s": 0.04881413834240363,
+     "stored_s": 0.04881413834240363,
+     "match": true
+    },
+    "MWM per phase": {
+     "reproduced_s": 0.049949953233246025,
+     "stored_s": 0.049949953233246025,
+     "match": true
+    },
+    "Solstice-K": {
+     "reproduced_s": 0.11281066736,
+     "stored_s": 0.11281066736,
+     "match": true
+    },
+    "Solstice-K+LP": {
+     "reproduced_s": 0.0642933569208889,
+     "stored_s": 0.0642933569208889,
+     "match": true
+    },
+    "Eclipse-K": {
+     "reproduced_s": 0.04790966682666667,
+     "stored_s": 0.04790966682666667,
+     "match": true
+    },
+    "Eclipse-K+LP": {
+     "reproduced_s": 0.04230291041422222,
+     "stored_s": 0.04230291041422222,
+     "match": true
+    },
+    "SAD-OTR (GHEM-AC)": {
+     "reproduced_s": 0.04530930898117693,
+     "stored_s": 0.04530930898117693,
+     "match": true
+    },
+    "SAD-OTR-TM": {
+     "reproduced_s": 0.03731519841422223,
+     "stored_s": 0.03731519841422223,
+     "match": true
+    },
+    "Ideal bound": {
+     "reproduced_s": 0.016342937872592594,
+     "stored_s": 0.016342937872592594,
+     "match": true
+    }
+   },
+   "4": {
+    "input_equals_generator": true,
+    "EPS Clos": {
+     "reproduced_s": 0.09622318048,
+     "stored_s": 0.09622318048,
+     "match": true
+    },
+    "Static OCS": {
+     "reproduced_s": 0.06435979596481528,
+     "stored_s": 0.06435979596481528,
+     "match": true
+    },
+    "RotorNet-style": {
+     "reproduced_s": 0.050217051565352853,
+     "stored_s": 0.050217051565352853,
+     "match": true
+    },
+    "MWM per phase": {
+     "reproduced_s": 0.05151276835792376,
+     "stored_s": 0.05151276835792376,
+     "match": true
+    },
+    "Solstice-K": {
+     "reproduced_s": 0.10557149061333333,
+     "stored_s": 0.10557149061333333,
+     "match": true
+    },
+    "Solstice-K+LP": {
+     "reproduced_s": 0.07054727905422223,
+     "stored_s": 0.07054727905422223,
+     "match": true
+    },
+    "Eclipse-K": {
+     "reproduced_s": 0.05022158576,
+     "stored_s": 0.05022158576,
+     "match": true
+    },
+    "Eclipse-K+LP": {
+     "reproduced_s": 0.04274860982755555,
+     "stored_s": 0.04274860982755555,
+     "match": true
+    },
+    "SAD-OTR (GHEM-AC)": {
+     "reproduced_s": 0.047858823225557644,
+     "stored_s": 0.047858823225557644,
+     "match": true
+    },
+    "SAD-OTR-TM": {
+     "reproduced_s": 0.037947910947555556,
+     "stored_s": 0.037947910947555556,
+     "match": true
+    },
+    "Ideal bound": {
+     "reproduced_s": 0.016752246601481485,
+     "stored_s": 0.016752246601481485,
+     "match": true
+    }
+   },
+   "5": {
+    "input_equals_generator": true,
+    "EPS Clos": {
+     "reproduced_s": 0.09570708448000002,
+     "stored_s": 0.09570708448000002,
+     "match": true
+    },
+    "Static OCS": {
+     "reproduced_s": 0.06401343819049113,
+     "stored_s": 0.06401343819049113,
+     "match": true
+    },
+    "RotorNet-style": {
+     "reproduced_s": 0.05002050394694465,
+     "stored_s": 0.05002050394694465,
+     "match": true
+    },
+    "MWM per phase": {
+     "reproduced_s": 0.05133079687517637,
+     "stored_s": 0.05133079687517637,
+     "match": true
+    },
+    "Solstice-K": {
+     "reproduced_s": 0.11692719472000002,
+     "stored_s": 0.11692719472000002,
+     "match": true
+    },
+    "Solstice-K+LP": {
+     "reproduced_s": 0.06863122486755556,
+     "stored_s": 0.06863122486755556,
+     "match": true
+    },
+    "Eclipse-K": {
+     "reproduced_s": 0.04909706991999999,
+     "stored_s": 0.04909706991999999,
+     "match": true
+    },
+    "Eclipse-K+LP": {
+     "reproduced_s": 0.04269006433422221,
+     "stored_s": 0.04269006433422221,
+     "match": true
+    },
+    "SAD-OTR (GHEM-AC)": {
+     "reproduced_s": 0.047184840167040366,
+     "stored_s": 0.047184840167040366,
+     "match": true
+    },
+    "SAD-OTR-TM": {
+     "reproduced_s": 0.038949512440888893,
+     "stored_s": 0.038949512440888893,
+     "match": true
+    },
+    "Ideal bound": {
+     "reproduced_s": 0.016694902601481484,
+     "stored_s": 0.016694902601481484,
+     "match": true
+    }
+   },
+   "6": {
+    "input_equals_generator": true,
+    "EPS Clos": {
+     "reproduced_s": 0.09258374794666668,
+     "stored_s": 0.09258374794666668,
+     "match": true
+    },
+    "Static OCS": {
+     "reproduced_s": 0.06188941637797974,
+     "stored_s": 0.06188941637797974,
+     "match": true
+    },
+    "RotorNet-style": {
+     "reproduced_s": 0.0488310268785039,
+     "stored_s": 0.0488310268785039,
+     "match": true
+    },
+    "MWM per phase": {
+     "reproduced_s": 0.049933896918145114,
+     "stored_s": 0.049933896918145114,
+     "match": true
+    },
+    "Solstice-K": {
+     "reproduced_s": 0.11288005360000002,
+     "stored_s": 0.11288005360000002,
+     "match": true
+    },
+    "Solstice-K+LP": {
+     "reproduced_s": 0.06144289313422222,
+     "stored_s": 0.06144289313422222,
+     "match": true
+    },
+    "Eclipse-K": {
+     "reproduced_s": 0.04854962586666667,
+     "stored_s": 0.04854962586666667,
+     "match": true
+    },
+    "Eclipse-K+LP": {
+     "reproduced_s": 0.042305368014222224,
+     "stored_s": 0.042305368014222224,
+     "match": true
+    },
+    "SAD-OTR (GHEM-AC)": {
+     "reproduced_s": 0.0451338362907505,
+     "stored_s": 0.0451338362907505,
+     "match": true
+    },
+    "SAD-OTR-TM": {
+     "reproduced_s": 0.037320113614222224,
+     "stored_s": 0.037320113614222224,
+     "match": true
+    },
+    "Ideal bound": {
+     "reproduced_s": 0.016347865208888892,
+     "stored_s": 0.016347865208888892,
+     "match": true
+    }
+   },
+   "7": {
+    "input_equals_generator": true,
+    "EPS Clos": {
+     "reproduced_s": 0.0943568244266667,
+     "stored_s": 0.0943568244266667,
+     "match": true
+    },
+    "Static OCS": {
+     "reproduced_s": 0.0694087439764209,
+     "stored_s": 0.0694087439764209,
+     "match": true
+    },
+    "RotorNet-style": {
+     "reproduced_s": 0.0495062771408574,
+     "stored_s": 0.0495062771408574,
+     "match": true
+    },
+    "MWM per phase": {
+     "reproduced_s": 0.0506778399130556,
+     "stored_s": 0.0506778399130556,
+     "match": true
+    },
+    "Solstice-K": {
+     "reproduced_s": 0.1264875573866667,
+     "stored_s": 0.1264875573866667,
+     "match": true
+    },
+    "Solstice-K+LP": {
+     "reproduced_s": 0.06936122124088888,
+     "stored_s": 0.06936122124088888,
+     "match": true
+    },
+    "Eclipse-K": {
+     "reproduced_s": 0.049076426080000006,
+     "stored_s": 0.049076426080000006,
+     "match": true
+    },
+    "Eclipse-K+LP": {
+     "reproduced_s": 0.04251945228088889,
+     "stored_s": 0.04251945228088889,
+     "match": true
+    },
+    "SAD-OTR (GHEM-AC)": {
+     "reproduced_s": 0.04594506284893288,
+     "stored_s": 0.04594506284893288,
+     "match": true
+    },
+    "SAD-OTR-TM": {
+     "reproduced_s": 0.03754233742334503,
+     "stored_s": 0.03754233742334503,
+     "match": true
+    },
+    "Ideal bound": {
+     "reproduced_s": 0.016544873706666668,
+     "stored_s": 0.016544873706666668,
+     "match": true
+    }
+   },
+   "8": {
+    "input_equals_generator": true,
+    "EPS Clos": {
+     "reproduced_s": 0.09354559797333334,
+     "stored_s": 0.09354559797333334,
+     "match": true
+    },
+    "Static OCS": {
+     "reproduced_s": 0.06984876351399821,
+     "stored_s": 0.06984876351399821,
+     "match": true
+    },
+    "RotorNet-style": {
+     "reproduced_s": 0.0491973334028854,
+     "stored_s": 0.0491973334028854,
+     "match": true
+    },
+    "MWM per phase": {
+     "reproduced_s": 0.05042782001754778,
+     "stored_s": 0.05042782001754778,
+     "match": true
+    },
+    "Solstice-K": {
+     "reproduced_s": 0.10814164144,
+     "stored_s": 0.10814164144,
+     "match": true
+    },
+    "Solstice-K+LP": {
+     "reproduced_s": 0.07008603489422223,
+     "stored_s": 0.07008603489422223,
+     "match": true
+    },
+    "Eclipse-K": {
+     "reproduced_s": 0.04894950469333333,
+     "stored_s": 0.04894950469333333,
+     "match": true
+    },
+    "Eclipse-K+LP": {
+     "reproduced_s": 0.042418636067555554,
+     "stored_s": 0.042418636067555554,
+     "match": true
+    },
+    "SAD-OTR (GHEM-AC)": {
+     "reproduced_s": 0.045532950598645594,
+     "stored_s": 0.045532950598645594,
+     "match": true
+    },
+    "SAD-OTR-TM": {
+     "reproduced_s": 0.03750826297265359,
+     "stored_s": 0.03750826297265359,
+     "match": true
+    },
+    "Ideal bound": {
+     "reproduced_s": 0.016454737434074076,
+     "stored_s": 0.016454737434074076,
+     "match": true
+    }
+   },
+   "9": {
+    "input_equals_generator": true,
+    "EPS Clos": {
+     "reproduced_s": 0.09252563936000001,
+     "stored_s": 0.09252563936000001,
+     "match": true
+    },
+    "Static OCS": {
+     "reproduced_s": 0.06305885169409138,
+     "stored_s": 0.06305885169409138,
+     "match": true
+    },
+    "RotorNet-style": {
+     "reproduced_s": 0.048808897072579405,
+     "stored_s": 0.048808897072579405,
+     "match": true
+    },
+    "MWM per phase": {
+     "reproduced_s": 0.04994154272214901,
+     "stored_s": 0.04994154272214901,
+     "match": true
+    },
+    "Solstice-K": {
+     "reproduced_s": 0.10490190383999999,
+     "stored_s": 0.10490190383999999,
+     "match": true
+    },
+    "Solstice-K+LP": {
+     "reproduced_s": 0.0660410036408889,
+     "stored_s": 0.0660410036408889,
+     "match": true
+    },
+    "Eclipse-K": {
+     "reproduced_s": 0.04812604485333333,
+     "stored_s": 0.04812604485333333,
+     "match": true
+    },
+    "Eclipse-K+LP": {
+     "reproduced_s": 0.04230220044088889,
+     "stored_s": 0.04230220044088889,
+     "match": true
+    },
+    "SAD-OTR (GHEM-AC)": {
+     "reproduced_s": 0.04510172372812477,
+     "stored_s": 0.04510172372812477,
+     "match": true
+    },
+    "SAD-OTR-TM": {
+     "reproduced_s": 0.03731399692088889,
+     "stored_s": 0.03731399692088889,
+     "match": true
+    },
+    "Ideal bound": {
+     "reproduced_s": 0.01634140869925926,
+     "stored_s": 0.01634140869925926,
+     "match": true
+    }
+   }
+  },
+  "mean_over_seeds_s": {
+   "EPS Clos": 0.09375150116266669,
+   "Static OCS": 0.06518214712154888,
+   "RotorNet-style": 0.04927574862308885,
+   "MWM per phase": 0.050453586498395354,
+   "Solstice-K": 0.11406846904533334,
+   "Solstice-K+LP": 0.0671873598008889,
+   "Eclipse-K": 0.04885052894933333,
+   "Eclipse-K+LP": 0.04244834572088889,
+   "SAD-OTR (GHEM-AC)": 0.046107537462054496,
+   "SAD-OTR-TM": 0.037613845059410074,
+   "Ideal bound": 0.016477615566222223
+  },
+  "TM_over_EclipseLP_mean_ratio": 0.886087429966674,
+  "TM_faster_seeds": 10
+ }
+}

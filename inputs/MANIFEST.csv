@@ -1,0 +1,164 @@
+file,sha256,description
+primary/primary_N32_seed0.npz,923b326d04993fa1cd7c4910a99851ac7c62bc3935fd11bb91843b88be7454fa,primary workload N=32 seed 0
+primary/primary_N32_seed1.npz,c161b1b6e0b507efff4d2bd6691f5411cb192fbbab0575bcc0b4cbcb4adfd39a,primary workload N=32 seed 1
+primary/primary_N32_seed2.npz,b0dd11f700c94a02afe05e939a949562b2aec1d25b1774399f0b8dd2a81f9e4a,primary workload N=32 seed 2
+primary/primary_N32_seed3.npz,d63eaa96f20cd3dabaa433c1bb12b35a971f4a1cce7ab6c12ef27d517b684d18,primary workload N=32 seed 3
+primary/primary_N32_seed4.npz,338df6556f1feb7f274ef4969cbfaca854936a7f1de6ef86ae7fe0c502780c56,primary workload N=32 seed 4
+primary/primary_N32_seed5.npz,7a1bfb4bc62f4e3268d537f9957b53a493b8e510a6aef924c9ec98cf09518a90,primary workload N=32 seed 5
+primary/primary_N32_seed6.npz,09c929e77b4cd7ddfeff9abfbde054f8827bce890364bfd5b1d34d840e8a2b0b,primary workload N=32 seed 6
+primary/primary_N32_seed7.npz,66d3d5b5d7e91a74f9357cfa7aa61666dc49379b2fcb0d336f2904687c70592a,primary workload N=32 seed 7
+primary/primary_N32_seed8.npz,cfa9757df828698fbf30c83bec7e11c4e976a9fb39cfdd9ae5b931b22923e5d0,primary workload N=32 seed 8
+primary/primary_N32_seed9.npz,1b16336b3966b893a966bbb596291b7d6c90fa269271acab2b5386362ab2259c,primary workload N=32 seed 9
+primary/primary_N8_seed0.npz,8429f37ddf97d066109d1e2e6ec30e277bc692c67c0d937e7701646811a3f992,primary workload N=8 seed 0 (Table opt)
+primary/primary_N12_seed0.npz,e8917892b21f66fbd513938110ddd352a62e10288a002393c6de6f653d45a7aa,primary workload N=12 seed 0 (Table opt)
+primary/primary_N16_seed0.npz,44099830d02ba7433d3d70421987176cb1a81d03b17187ee4b6916d4a04075db,primary workload N=16 seed 0 (Table opt)
+primary/primary_N20_seed0.npz,f4ac4aa8a147b0d79d2dd0d1a89da4436180d9aa67d60cd094ea8c80258ac50b,primary workload N=20 seed 0 (Table opt)
+primary/primary_N24_seed0.npz,fd41b0a1dd8e9e01bf421403d819db8c16c921a3ed66201990a3294d4cac9c19,primary workload N=24 seed 0 (Table opt)
+primary/primary_N28_seed0.npz,9425447958461fd931569cbd8d8d916de955ef6f1e8294728dc9620c687e4273,primary workload N=28 seed 0 (Table opt)
+scalability/uniform_N16_seed0.npz,44099830d02ba7433d3d70421987176cb1a81d03b17187ee4b6916d4a04075db,scalability uniform N=16 seed 0
+scalability/uniform_N16_seed1.npz,08379b724ccf6ce6995a1b77a91a5662f402f83428ccb023a6597348ee4d8981,scalability uniform N=16 seed 1
+scalability/uniform_N16_seed2.npz,34b3562b7b4080f2b641ca1588c18b8fdd343f8422e0a2b119e5b8d8fcff129b,scalability uniform N=16 seed 2
+scalability/uniform_N16_seed3.npz,9d36aee3fb3ca33100e6f6818b4491fa87bc4359b9785bbd953aa624750b6753,scalability uniform N=16 seed 3
+scalability/uniform_N16_seed4.npz,3a88280470dea6df263cdeea645cd81992fdf19ae94cda914d7fbd36f51a330d,scalability uniform N=16 seed 4
+scalability/uniform_N32_seed0.npz,923b326d04993fa1cd7c4910a99851ac7c62bc3935fd11bb91843b88be7454fa,scalability uniform N=32 seed 0
+scalability/uniform_N32_seed1.npz,c161b1b6e0b507efff4d2bd6691f5411cb192fbbab0575bcc0b4cbcb4adfd39a,scalability uniform N=32 seed 1
+scalability/uniform_N32_seed2.npz,b0dd11f700c94a02afe05e939a949562b2aec1d25b1774399f0b8dd2a81f9e4a,scalability uniform N=32 seed 2
+scalability/uniform_N32_seed3.npz,d63eaa96f20cd3dabaa433c1bb12b35a971f4a1cce7ab6c12ef27d517b684d18,scalability uniform N=32 seed 3
+scalability/uniform_N32_seed4.npz,338df6556f1feb7f274ef4969cbfaca854936a7f1de6ef86ae7fe0c502780c56,scalability uniform N=32 seed 4
+scalability/uniform_N64_seed0.npz,d7188b20666c2148a849852505b2d4b534f011509cac036cbfa03580f6c4b913,scalability uniform N=64 seed 0
+scalability/uniform_N64_seed1.npz,5a163be9f88b8f72772960b42f148dfacea586c41976ad7b812ef68c52ee4d1e,scalability uniform N=64 seed 1
+scalability/uniform_N64_seed2.npz,9f1d118522ef67ef94bf60b24d3c30aa6edcdac4a17603548ef9ac4bb1f79d51,scalability uniform N=64 seed 2
+scalability/uniform_N64_seed3.npz,8770dc3c10c2e28aa70b0b7b09502128098969fed739cb199161a269d9e9b3c1,scalability uniform N=64 seed 3
+scalability/uniform_N64_seed4.npz,8daf9e65b115cab26c16b4841b03d958b93c572d50ae4c056934ffe5d45f37bd,scalability uniform N=64 seed 4
+scalability/uniform_N128_seed0.npz,5532f74d84b6282fcd6888ff491e43332013f329c3658a961be6283f6c30650e,scalability uniform N=128 seed 0
+scalability/uniform_N128_seed1.npz,62efbf99921a2abad65e402fbbeaa4f9fb3019c11efeb6bedb37fcf66a50750e,scalability uniform N=128 seed 1
+scalability/uniform_N128_seed2.npz,570071a1034e371b4dbc392723ba37e3105e8f4573d2451c175730ec7dc6149e,scalability uniform N=128 seed 2
+scalability/uniform_N128_seed3.npz,7f535f15c9f60f3b6e2d4ba1d69e5608040b059a5637c91084c2e8e15c015890,scalability uniform N=128 seed 3
+scalability/uniform_N128_seed4.npz,2a985e7ee5fb691691b7d9b2a62583338108fff12c18d91825a09f5ef89fef8d,scalability uniform N=128 seed 4
+scalability/uniform_N256_seed0.npz,1807e0cd7a177e8159979d3bb311b2d2877115c3e3c3be961995a279170d0f91,scalability uniform N=256 seed 0
+scalability/uniform_N256_seed1.npz,0b9e250fc82c795377aabef6c27adc8ec52e24f6b9af5726595cde038b8d30cb,scalability uniform N=256 seed 1
+scalability/uniform_N256_seed2.npz,1efcf6bf79af280177918ef46239e02aeade5b98f00cf1ea8c43ba848d6bcc22,scalability uniform N=256 seed 2
+scalability/skewed_N16_seed0.npz,e060a919f029e6d00d8842628c81adda7ad91e9a705314ffb4f2a03f5797185a,scalability skewed N=16 seed 0
+scalability/skewed_N16_seed1.npz,f87ef576e47dc1deb7b78540225b48be0e52b672b1f9ac25c6bae0732c29d914,scalability skewed N=16 seed 1
+scalability/skewed_N16_seed2.npz,f37053eb492236c246eb795ff7493077ef0e49cb02e09e24ee8488aa9489f715,scalability skewed N=16 seed 2
+scalability/skewed_N16_seed3.npz,29181dfd03c19619a6a39d7f8761efec42bce46388224745a7ad86ee94eebf32,scalability skewed N=16 seed 3
+scalability/skewed_N16_seed4.npz,655383783e0b0eedac223e4b9e7956e06c84fb082b5463cf434638a82db38da6,scalability skewed N=16 seed 4
+scalability/skewed_N32_seed0.npz,8aa20a0fe5059d678c169ffcf859f9c4d4503be0895e0b10277b1ebf797d6ed7,scalability skewed N=32 seed 0
+scalability/skewed_N32_seed1.npz,723147f08944b8c8d4a86fd4864f7005948eb7f04714ae91cb5ef20b22142bae,scalability skewed N=32 seed 1
+scalability/skewed_N32_seed2.npz,0b492bfc3e3841b8838bb844ff24cdec4ae49d5f2f440e5f0969de121eb4f910,scalability skewed N=32 seed 2
+scalability/skewed_N32_seed3.npz,8e126d6247bb97fc54d191c49f69b512a6c787c225e4d8454cbc387189803904,scalability skewed N=32 seed 3
+scalability/skewed_N32_seed4.npz,dc0cfccd002b8ca3127da5d0af3fee51fb962592207d624ff718ff4e4f970763,scalability skewed N=32 seed 4
+scalability/skewed_N64_seed0.npz,143525ddeeb496767bb6efe7ee28e3f46c9dbdca19e7084b60bc1ce44992ed06,scalability skewed N=64 seed 0
+scalability/skewed_N64_seed1.npz,1ec0fb1d32e2312466cb14a090b36a392d3c0a965a4acb86f52ff1e66a15c50d,scalability skewed N=64 seed 1
+scalability/skewed_N64_seed2.npz,e56bb661f31fe8a7e509513ed32440d89c58ed041199819aff82c3b94f3bbaa5,scalability skewed N=64 seed 2
+scalability/skewed_N64_seed3.npz,801b0e135abedb60f5c97a83906c045cfa6dc44a16c6b58b9c5bb0f069f69d8c,scalability skewed N=64 seed 3
+scalability/skewed_N64_seed4.npz,6aeb3339691f0493963b0a3d3bd90e3271a60557a0bbf8cf34cacc2a8de27bfd,scalability skewed N=64 seed 4
+scalability/skewed_N128_seed0.npz,80f9e88ee59a601fb118566bb19b2cc14039ba4c52f82cdd7ecefc969de49880,scalability skewed N=128 seed 0
+scalability/skewed_N128_seed1.npz,d252e2667e4eed5bd0bfda652094ff943fa2168d5f33ea9ab12eac31a8d62245,scalability skewed N=128 seed 1
+scalability/skewed_N128_seed2.npz,9a8e433000830703aab49f0e283a64fbf85f71643ffe445c1b888a9c4774d16c,scalability skewed N=128 seed 2
+scalability/skewed_N128_seed3.npz,0f7a29ccfb6f970428cbf995489859d421cf4c2bd07bb9c0ff8f02834e7914ab,scalability skewed N=128 seed 3
+scalability/skewed_N128_seed4.npz,eeb1706b6f02f637e020a75ded90b15382f848c206645d3a6ff5c67ab2fb4196,scalability skewed N=128 seed 4
+scalability/skewed_N256_seed0.npz,01cf4be91415f6083ec9b5b9d4a957c381e5e13928fdc9012c79d6aae6377efb,scalability skewed N=256 seed 0
+scalability/skewed_N256_seed1.npz,722283ab8471496ee9b808ddf694d9deb57270cfaf0bc7d89727e9ca6145ffc5,scalability skewed N=256 seed 1
+scalability/skewed_N256_seed2.npz,1b942540622d16dcabb0c86236433d054495fd57dbecb411e39e35b57f258667,scalability skewed N=256 seed 2
+llm/llm_seed0.npz,7bfb71a181603b9959e3e2c921bef6441b264ea927493c5901e79adff1686f03,DeepSeek-V3-derived workload seed 0
+llm/llm_seed1.npz,8fdf30478957fad269c39488def4cb5df746edd451ef41b38a330f112760b746,DeepSeek-V3-derived workload seed 1
+llm/llm_seed2.npz,57ece2091223743f01ad8d4379ca7c61112f272550e9289e391e90671f5ecfdc,DeepSeek-V3-derived workload seed 2
+llm/llm_seed3.npz,372c9e3f13562c220aef18e5ab60c070b3b388254ad301e8794cc6a54854e354,DeepSeek-V3-derived workload seed 3
+llm/llm_seed4.npz,0b84936c21000a40397c4e74a61e7129297e49fe9fad7f2f0bf72560d3843e24,DeepSeek-V3-derived workload seed 4
+llm/llm_seed5.npz,31551ee96ab278c85814b07f21fead62a183a1d28d0a51652973b1690ca91d12,DeepSeek-V3-derived workload seed 5
+llm/llm_seed6.npz,62e3eeb2ba61e1cc65e8d574b7b90d2c1dda90295142ba638283cba4b16fb9f7,DeepSeek-V3-derived workload seed 6
+llm/llm_seed7.npz,dda51cc2d8a69dae6a1d1da9869a0eeb71e22dfabc01743b122971296ec83e4c,DeepSeek-V3-derived workload seed 7
+llm/llm_seed8.npz,3b202a02dccc70f36861e327def8e7c4011810c9d8674adab40307d05db0ce82,DeepSeek-V3-derived workload seed 8
+llm/llm_seed9.npz,751215211fbfa343b5a0dc833f4092714215a8c5ffd0c494c5ebdd0c68fd1c64,DeepSeek-V3-derived workload seed 9
+robust/estimate_volume_0.1_seed0.npz,72706ffaab8f2304f0c062a5c2fd89d0b2012b756280339428c210b9b7927c86,"perturbed estimate D_hat (volume, level 0.1) for primary seed 0"
+robust/estimate_volume_0.1_seed1.npz,82fa1b2a3e011a5b3de4e8d2cdf90e2c74d104ee97d4603c1481afa108af5ab1,"perturbed estimate D_hat (volume, level 0.1) for primary seed 1"
+robust/estimate_volume_0.1_seed2.npz,75188afbca754db2b94113f2c3b6b9945fec494acedb8014019944a0f2273562,"perturbed estimate D_hat (volume, level 0.1) for primary seed 2"
+robust/estimate_volume_0.1_seed3.npz,579489a7a1981b7a7c2ba05d89688d443a1890b27ab7576fbad68535094ae3d4,"perturbed estimate D_hat (volume, level 0.1) for primary seed 3"
+robust/estimate_volume_0.1_seed4.npz,6eaef23af9a7c5f5780418bea562fa08293c088114985266c1233f9dacaef155,"perturbed estimate D_hat (volume, level 0.1) for primary seed 4"
+robust/estimate_volume_0.1_seed5.npz,4d95822ce00b1c31e65cc879193385a8ac24ffc56548d4a80f3d75cece6ab559,"perturbed estimate D_hat (volume, level 0.1) for primary seed 5"
+robust/estimate_volume_0.1_seed6.npz,8208c687d24cd5cd78be94b64d079fb630fc96d131a72d00d102c05a5d91925f,"perturbed estimate D_hat (volume, level 0.1) for primary seed 6"
+robust/estimate_volume_0.1_seed7.npz,ff9110d46294aaa29c383cbf967baaa031f921309688bc9e32a66cd0ef7d5f53,"perturbed estimate D_hat (volume, level 0.1) for primary seed 7"
+robust/estimate_volume_0.1_seed8.npz,236f9966f5191fb1a95311fdc1a20033f77b8e612f13cfdceb0ff622ef116baf,"perturbed estimate D_hat (volume, level 0.1) for primary seed 8"
+robust/estimate_volume_0.1_seed9.npz,3b74a9b857084e12baf87104abc0a87feb944de27afc9ca79196718e61c414ae,"perturbed estimate D_hat (volume, level 0.1) for primary seed 9"
+robust/estimate_volume_0.2_seed0.npz,a5550d771e71c612d1b3c0df5c62b6e4d2ee5e892b69b613f4ecb5ff12750bbd,"perturbed estimate D_hat (volume, level 0.2) for primary seed 0"
+robust/estimate_volume_0.2_seed1.npz,60542d2c2f959f4bc36e969af610a717aeb5774763855579676f2b44482a8868,"perturbed estimate D_hat (volume, level 0.2) for primary seed 1"
+robust/estimate_volume_0.2_seed2.npz,1afc41a1ede8330f45c79e48c2d93c4f3ff63a092dd2ff26b84ee5710837d58f,"perturbed estimate D_hat (volume, level 0.2) for primary seed 2"
+robust/estimate_volume_0.2_seed3.npz,edb6a1c91915967acfe0b790d99b570721db5f97803bc41aa13c85adb9eb6c27,"perturbed estimate D_hat (volume, level 0.2) for primary seed 3"
+robust/estimate_volume_0.2_seed4.npz,bc1797e7647a90e911529cb1c7d4fc06aae568d2978b1b2d65ca3450827e3cf1,"perturbed estimate D_hat (volume, level 0.2) for primary seed 4"
+robust/estimate_volume_0.2_seed5.npz,dd0ad47f83d3e4670690ad4feeb101f5f95e73aca6d44ae98b1491f2d8349f71,"perturbed estimate D_hat (volume, level 0.2) for primary seed 5"
+robust/estimate_volume_0.2_seed6.npz,f5fd8f5955d3d924f3d7cf0bf566d2b81573a1a9dd26719250149a69090466ab,"perturbed estimate D_hat (volume, level 0.2) for primary seed 6"
+robust/estimate_volume_0.2_seed7.npz,19fd527349e15705470e1dca12a476e0506a95f476416f9f6c632d00d7208c5f,"perturbed estimate D_hat (volume, level 0.2) for primary seed 7"
+robust/estimate_volume_0.2_seed8.npz,6ca0e2631856fec3472db5468129abca7304bc15afb0ab142f1ba5636819654e,"perturbed estimate D_hat (volume, level 0.2) for primary seed 8"
+robust/estimate_volume_0.2_seed9.npz,ec4d2ba06fd3d857c6fad9cb0cdbef90c3e55c8da02de3d99d38de52b945443e,"perturbed estimate D_hat (volume, level 0.2) for primary seed 9"
+robust/estimate_volume_0.3_seed0.npz,3588a967a700b84e6c22592a7ca16d0e88c079956ed78831ccdb6e06675f4a8c,"perturbed estimate D_hat (volume, level 0.3) for primary seed 0"
+robust/estimate_volume_0.3_seed1.npz,1e4f875bbe29939528b15ef0b0e90e0ae34bd987a4c60b80771b9e88dbee194d,"perturbed estimate D_hat (volume, level 0.3) for primary seed 1"
+robust/estimate_volume_0.3_seed2.npz,ecf9be056334e479b9d8d3fe6b8a60b18712bf96800a34a19dc3dae9c61b85d0,"perturbed estimate D_hat (volume, level 0.3) for primary seed 2"
+robust/estimate_volume_0.3_seed3.npz,d60f3b049d5b1aa5346ea394ef2ce9863e69a4f5468c38b2af40b6c8953dd238,"perturbed estimate D_hat (volume, level 0.3) for primary seed 3"
+robust/estimate_volume_0.3_seed4.npz,d072fc3ae17d75583e61f3d6f7db5434202a5f228b1c80cd54fbf9f77e82cd00,"perturbed estimate D_hat (volume, level 0.3) for primary seed 4"
+robust/estimate_volume_0.3_seed5.npz,17c5fdc3ea4154d1c092dea0a081c4bb671c8a429d2fe5608c4854c3ff8c59d4,"perturbed estimate D_hat (volume, level 0.3) for primary seed 5"
+robust/estimate_volume_0.3_seed6.npz,c2b9e86cf2e3a0a84fc01b8bb2cf6620a859448eb3594743c7d8efc60d15a72f,"perturbed estimate D_hat (volume, level 0.3) for primary seed 6"
+robust/estimate_volume_0.3_seed7.npz,f56dad9a3ecc88c910d207afbc5861916540a15271b2f61d846e223abe2457be,"perturbed estimate D_hat (volume, level 0.3) for primary seed 7"
+robust/estimate_volume_0.3_seed8.npz,b40844e733905a26da30e6fe9d4ba85830c24697aa41d381384dc681130873e8,"perturbed estimate D_hat (volume, level 0.3) for primary seed 8"
+robust/estimate_volume_0.3_seed9.npz,d222f6fe8da03be4a039be223a46a139602325a7150451036d6457483cba0b39,"perturbed estimate D_hat (volume, level 0.3) for primary seed 9"
+robust/estimate_volume_0.4_seed0.npz,2c09bd5c98a55032554dad90d6ed63b80c1f0d94a4d6177c5a29d75bdc5bf6b4,"perturbed estimate D_hat (volume, level 0.4) for primary seed 0"
+robust/estimate_volume_0.4_seed1.npz,7472bc06577134f30ef81a197bd7d66c089483b8ecfedf0054c475cda8f92f58,"perturbed estimate D_hat (volume, level 0.4) for primary seed 1"
+robust/estimate_volume_0.4_seed2.npz,6119e8dea5369b137c83fdd86f310f3f6ba78f27308240b7fd7cf8addc251813,"perturbed estimate D_hat (volume, level 0.4) for primary seed 2"
+robust/estimate_volume_0.4_seed3.npz,3dfc5fcfc8b78a965763288009f596cea7f457ea4c5db207dbbb898e9f1df08d,"perturbed estimate D_hat (volume, level 0.4) for primary seed 3"
+robust/estimate_volume_0.4_seed4.npz,74857ba4f04f7fcd98be6a1b70d5bc421e2ec75ff2fcefcb091eec9b33e4a3ad,"perturbed estimate D_hat (volume, level 0.4) for primary seed 4"
+robust/estimate_volume_0.4_seed5.npz,86acedf600a47bf97425bdd0b64641f35105ea67c38f0ea1414cda61452e2921,"perturbed estimate D_hat (volume, level 0.4) for primary seed 5"
+robust/estimate_volume_0.4_seed6.npz,16413e6585f68f344446466acd8defc96fce4196f441f1309f8a09130528c5e5,"perturbed estimate D_hat (volume, level 0.4) for primary seed 6"
+robust/estimate_volume_0.4_seed7.npz,2c99e800d46fb341048e9e729b8a22c4e803e134502a18bd91f8afe968200cb1,"perturbed estimate D_hat (volume, level 0.4) for primary seed 7"
+robust/estimate_volume_0.4_seed8.npz,ffa2cb6eee85d3e77f13c62e4a6c5f64ea5eccce69ac3aa0a81f92bf0f7df9c4,"perturbed estimate D_hat (volume, level 0.4) for primary seed 8"
+robust/estimate_volume_0.4_seed9.npz,ee3d6761ae297fec1d90d44127fe6755050d5fd3151a07fb444824ca483ed861,"perturbed estimate D_hat (volume, level 0.4) for primary seed 9"
+robust/estimate_volume_0.5_seed0.npz,0d35ff64220ace60b037861f6036869926f0f11df92c784d990e2653d1aed418,"perturbed estimate D_hat (volume, level 0.5) for primary seed 0"
+robust/estimate_volume_0.5_seed1.npz,dc2f1fbbeaa410e7b5a02505b90f65c2097ed12d0750c8ca83ac6716fa88432e,"perturbed estimate D_hat (volume, level 0.5) for primary seed 1"
+robust/estimate_volume_0.5_seed2.npz,b9db7fba024d88b34d605c442eff1acd438c833cb69b40a9e06e74fc120913e0,"perturbed estimate D_hat (volume, level 0.5) for primary seed 2"
+robust/estimate_volume_0.5_seed3.npz,e4681ca1ceb5a049bf7c7afaaeea5b72d9fc32666726ec97b7cac86e81d85cfe,"perturbed estimate D_hat (volume, level 0.5) for primary seed 3"
+robust/estimate_volume_0.5_seed4.npz,66358d765cb9a707a3fd92128ae12a7cccd721aaeffbfb6bd05496d98ca99e53,"perturbed estimate D_hat (volume, level 0.5) for primary seed 4"
+robust/estimate_volume_0.5_seed5.npz,abb6020a7e149d6bcca7c5043a2aa7d632bf8e096a6428f03225e3471261f011,"perturbed estimate D_hat (volume, level 0.5) for primary seed 5"
+robust/estimate_volume_0.5_seed6.npz,c01d0a0dcaf74e1b2f817e8234c03e33b5f5b53072db83bfb8a4a0c9bd6d8880,"perturbed estimate D_hat (volume, level 0.5) for primary seed 6"
+robust/estimate_volume_0.5_seed7.npz,a81620509054e564ea92dd6030cdadf17808cb04102ca38167debd17158b7cf1,"perturbed estimate D_hat (volume, level 0.5) for primary seed 7"
+robust/estimate_volume_0.5_seed8.npz,e1923d785c3812df82bd6c406cb33fe8232c727985829d285e583cc27719add6,"perturbed estimate D_hat (volume, level 0.5) for primary seed 8"
+robust/estimate_volume_0.5_seed9.npz,022d35bb4bbd9b32db565cc36dc0d7314b6ee428fc4ac3c461124d57a97ebd3f,"perturbed estimate D_hat (volume, level 0.5) for primary seed 9"
+robust/estimate_fanout_0.1_seed0.npz,f1304e38e096266b1368f30db6f77bf5494b9180d31037d61708298e7700766f,"perturbed estimate D_hat (fanout, level 0.1) for primary seed 0"
+robust/estimate_fanout_0.1_seed1.npz,a9422e29a8dbbb5bb117f7739e2a5ccdd8d9192dcc7b50c4faba8990241a0056,"perturbed estimate D_hat (fanout, level 0.1) for primary seed 1"
+robust/estimate_fanout_0.1_seed2.npz,87196d229bc95b85d1549da51bf71eb11e6a772c8daf9e0a11e4d26ebdde0ba7,"perturbed estimate D_hat (fanout, level 0.1) for primary seed 2"
+robust/estimate_fanout_0.1_seed3.npz,5e6bca58c3c9eabf761f07caa8cefde83ce23fc90097efc71689e8fabcbb8881,"perturbed estimate D_hat (fanout, level 0.1) for primary seed 3"
+robust/estimate_fanout_0.1_seed4.npz,2af8fe658e4302c18ba3f3d5ee3b6de3e25c6badab6e8ad315b16b2cedbf355e,"perturbed estimate D_hat (fanout, level 0.1) for primary seed 4"
+robust/estimate_fanout_0.1_seed5.npz,cf6818c2107dcb7d5f42e4bd75a865d3171a10df42c3a3cbbf0a7d8fdc243071,"perturbed estimate D_hat (fanout, level 0.1) for primary seed 5"
+robust/estimate_fanout_0.1_seed6.npz,256c39d85c49d9320a08f24a8a1681865176371f0f06365e2ad07f9fec8faffb,"perturbed estimate D_hat (fanout, level 0.1) for primary seed 6"
+robust/estimate_fanout_0.1_seed7.npz,873d739a3ccca32d2a204f99a3b5d87c75aa81c556cef7cf0f4399e7307e5d14,"perturbed estimate D_hat (fanout, level 0.1) for primary seed 7"
+robust/estimate_fanout_0.1_seed8.npz,da18cbec1c3cb4d8e78a64bda2d61e9d176978719cca4ef65dd701299512726c,"perturbed estimate D_hat (fanout, level 0.1) for primary seed 8"
+robust/estimate_fanout_0.1_seed9.npz,05e35e0cdbfcbabed4dbffe82c35ad8eb22888c40c310bfcf01cf30c24c33697,"perturbed estimate D_hat (fanout, level 0.1) for primary seed 9"
+robust/estimate_fanout_0.2_seed0.npz,bdc13c2c4a45692982adff24b3a34f111d90cb4e95f87adaee30a3ad5854c5b2,"perturbed estimate D_hat (fanout, level 0.2) for primary seed 0"
+robust/estimate_fanout_0.2_seed1.npz,38993ac99e1b570a5037a517b80609930469990c5ad2f88b4614c5fb575212a8,"perturbed estimate D_hat (fanout, level 0.2) for primary seed 1"
+robust/estimate_fanout_0.2_seed2.npz,2859ec2c67fcd3eebfc8804d5dc872d75b5d3f2ed6cfbe49d947c75f82c8c2c6,"perturbed estimate D_hat (fanout, level 0.2) for primary seed 2"
+robust/estimate_fanout_0.2_seed3.npz,ffebc857e988e1925285e29a7d6087fbe088a4b038a216120b1390f6005c9bad,"perturbed estimate D_hat (fanout, level 0.2) for primary seed 3"
+robust/estimate_fanout_0.2_seed4.npz,db90b42207bb6880ca06de98d1acf94eb21e9320f80a54421313882baca80bad,"perturbed estimate D_hat (fanout, level 0.2) for primary seed 4"
+robust/estimate_fanout_0.2_seed5.npz,1097bf79135466e4ec35e119e18cb9c1e580e2e88c7fd416f950371e033c2227,"perturbed estimate D_hat (fanout, level 0.2) for primary seed 5"
+robust/estimate_fanout_0.2_seed6.npz,3128f8068c0b17551be6a235497ce2743fab6296e3f4dd5f492032c5997303be,"perturbed estimate D_hat (fanout, level 0.2) for primary seed 6"
+robust/estimate_fanout_0.2_seed7.npz,54f806cbed6e76f098a9003a11a4215323d358c4ce073e4fcab11a6100631d67,"perturbed estimate D_hat (fanout, level 0.2) for primary seed 7"
+robust/estimate_fanout_0.2_seed8.npz,4784469ca359623f30f20b3c5e6272440c7f20053275f10bbf1b4e4ea5fa369e,"perturbed estimate D_hat (fanout, level 0.2) for primary seed 8"
+robust/estimate_fanout_0.2_seed9.npz,a27ec7954e951c05dee870f57d726f30e67a13eb972274fd6260f76a3495ef9f,"perturbed estimate D_hat (fanout, level 0.2) for primary seed 9"
+robust/estimate_fanout_0.3_seed0.npz,a451e9dd9a979a025f563eecf139eaa229e5b1905a42627f205f82b26ba4870e,"perturbed estimate D_hat (fanout, level 0.3) for primary seed 0"
+robust/estimate_fanout_0.3_seed1.npz,fb201b5b3d5c89209e2230c5a34c55e714d566a376fd050e35aa1fcc6e3deed7,"perturbed estimate D_hat (fanout, level 0.3) for primary seed 1"
+robust/estimate_fanout_0.3_seed2.npz,5514e3b49e14f45ea4fed77f83c8e6ace7c1554af0ef9e8cd1df7f7ab6c06b61,"perturbed estimate D_hat (fanout, level 0.3) for primary seed 2"
+robust/estimate_fanout_0.3_seed3.npz,158c9cf33131ab956aa2ec698a101f4fc385e86d94555b278034db90259e7c11,"perturbed estimate D_hat (fanout, level 0.3) for primary seed 3"
+robust/estimate_fanout_0.3_seed4.npz,7870723074ffe9e747811f38435e4ca809a8e1cc4b0181308b1431dee6031f9d,"perturbed estimate D_hat (fanout, level 0.3) for primary seed 4"
+robust/estimate_fanout_0.3_seed5.npz,70fd1ff2f0558e0cd6aa0138f5d889242e9131d22ce25b2f71ffb6c04412cedf,"perturbed estimate D_hat (fanout, level 0.3) for primary seed 5"
+robust/estimate_fanout_0.3_seed6.npz,dde118d9c82f512862033ff6192ca803064059eb9f0631a48897cb6e3a1a93e0,"perturbed estimate D_hat (fanout, level 0.3) for primary seed 6"
+robust/estimate_fanout_0.3_seed7.npz,e1ce36f50bae0f1683cc6edd51597a2eeefedf5ba28bef9943cb773e722ab449,"perturbed estimate D_hat (fanout, level 0.3) for primary seed 7"
+robust/estimate_fanout_0.3_seed8.npz,42d470d0713eae321e80f883e9c3eafa956afeda2e9e3b0d2a88996427e7eb97,"perturbed estimate D_hat (fanout, level 0.3) for primary seed 8"
+robust/estimate_fanout_0.3_seed9.npz,b96360cccc490c23d9b7cb4321288aaab56218101bbc887e9ab4346edcf76349,"perturbed estimate D_hat (fanout, level 0.3) for primary seed 9"
+robust/estimate_fanout_0.5_seed0.npz,b2d70f77b4e1779a4d5cfced70b0fc3741416dfbb2536ea421244271f42580d1,"perturbed estimate D_hat (fanout, level 0.5) for primary seed 0"
+robust/estimate_fanout_0.5_seed1.npz,6ef1859601a11a2334ec8618d506246bf6ece5c8c7907b3c587efbc5411ee2da,"perturbed estimate D_hat (fanout, level 0.5) for primary seed 1"
+robust/estimate_fanout_0.5_seed2.npz,59ae4d054ce2c5c9bb0115d4e2672774823e23fb97d5b83c026b6852b8ff8381,"perturbed estimate D_hat (fanout, level 0.5) for primary seed 2"
+robust/estimate_fanout_0.5_seed3.npz,cb0b8a3cb3d8a2a0e38f654b8ea7eaf7ace7824f8eb99f87575a7aa9c78ec358,"perturbed estimate D_hat (fanout, level 0.5) for primary seed 3"
+robust/estimate_fanout_0.5_seed4.npz,f15feb9a23a9d157ad773d0e552a5567e8c8f33470077c740d0ed2bff4fa7f8e,"perturbed estimate D_hat (fanout, level 0.5) for primary seed 4"
+robust/estimate_fanout_0.5_seed5.npz,88034e804d6887b1aec230f5cab3daeb416420380740007a960529a592f9479e,"perturbed estimate D_hat (fanout, level 0.5) for primary seed 5"
+robust/estimate_fanout_0.5_seed6.npz,2e81285781fc1a5a1675bd5f7e393d5d241f356aae526bb9d2df6fa6c0c3bf0a,"perturbed estimate D_hat (fanout, level 0.5) for primary seed 6"
+robust/estimate_fanout_0.5_seed7.npz,5f63b59a0a434b790ac37781ce55f2fb6261dc94fa19244034ecb23ac21163f8,"perturbed estimate D_hat (fanout, level 0.5) for primary seed 7"
+robust/estimate_fanout_0.5_seed8.npz,45dee96a1ab5a3328585f2aedc9356823d9d0f6f05b22aa1fbb25430e1cdc724,"perturbed estimate D_hat (fanout, level 0.5) for primary seed 8"
+robust/estimate_fanout_0.5_seed9.npz,4897434db8606d2e157c6767049d3b6acd67aaeaa11c2b54766f21b6ac53ee1e,"perturbed estimate D_hat (fanout, level 0.5) for primary seed 9"
+config.json,e8658cec5cc2ef389591e4fd9250aab1aa7b00a229020f323dad811e8bfcd800,"parameters, generators, seeds"

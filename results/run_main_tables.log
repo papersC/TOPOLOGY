@@ -1,0 +1,25 @@
+eps: mean=2.8448s max=7.5275s opt%=0.0 recon=0
+static_ocs: mean=2.2414s max=7.5275s opt%=34.2 recon=0
+ghem: mean=1.1428s max=3.8619s opt%=77.5 recon=9
+ghem_delta0: mean=1.1315s max=3.8469s opt%=77.5 recon=9
+ghem+repair: mean=1.1428s opt%=77.5 recon=9
+N=8: mean_gap=0.0% worst=0.0% repair_worst=0.0% ghem=2.4ms milp=15.0ms worst@7:EP winner=WeightGreedy
+N=12: mean_gap=0.0% worst=0.0% repair_worst=0.0% ghem=3.0ms milp=22.8ms worst@4:EP winner=WeightGreedy
+N=16: mean_gap=0.0% worst=0.0% repair_worst=0.0% ghem=4.8ms milp=853.0ms worst@7:EP winner=WeightGreedy
+N=20: mean_gap=0.0% worst=0.0% repair_worst=0.0% ghem=5.3ms milp=1686.9ms worst@1:EP winner=WeightGreedy
+N=24: mean_gap=0.0% worst=0.0% repair_worst=0.0% ghem=6.3ms milp=24.4ms worst@0:TP winner=WeightGreedy
+N=28: mean_gap=0.0% worst=0.0% repair_worst=0.0% ghem=6.5ms milp=25.3ms worst@1:EP winner=WeightGreedy
+N=32: mean_gap=0.0% worst=0.0% repair_worst=0.0% ghem=7.9ms milp=28.3ms worst@7:EP winner=WeightGreedy
+K=1: {'K': 1, 'mean_phase_s': 1.984, 'speedup': 1.43, 'optical_pct': 46.5}
+K=2: {'K': 2, 'mean_phase_s': 1.7, 'speedup': 1.67, 'optical_pct': 59.9}
+K=4: {'K': 4, 'mean_phase_s': 1.143, 'speedup': 2.49, 'optical_pct': 77.5}
+K=6: {'K': 6, 'mean_phase_s': 0.705, 'speedup': 4.04, 'optical_pct': 82.1}
+K=8: {'K': 8, 'mean_phase_s': 0.442, 'speedup': 6.43, 'optical_pct': 82.4}
+K=12: {'K': 12, 'mean_phase_s': 0.426, 'speedup': 6.68, 'optical_pct': 81.8}
+K=16: {'K': 16, 'mean_phase_s': 0.426, 'speedup': 6.68, 'optical_pct': 81.8}
+B_eps=100: {'B_eps': 100, 'eps_s': 11.379, 'static_s': 8.225, 'sad_s': 3.797, 'speedup': 3.0}
+B_eps=200: {'B_eps': 200, 'eps_s': 5.69, 'static_s': 4.26, 'sad_s': 2.052, 'speedup': 2.77}
+B_eps=400: {'B_eps': 400, 'eps_s': 2.845, 'static_s': 2.241, 'sad_s': 1.143, 'speedup': 2.49}
+B_eps=800: {'B_eps': 800, 'eps_s': 1.422, 'static_s': 1.19, 'sad_s': 0.646, 'speedup': 2.2}
+B_eps=1600: {'B_eps': 1600, 'eps_s': 0.711, 'static_s': 0.63, 'sad_s': 0.364, 'speedup': 1.95}
+Wrote results/main_tables.json

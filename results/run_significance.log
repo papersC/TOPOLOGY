@@ -1,0 +1,9 @@
+SAD-OTR-TM vs Eclipse-K+LP: ratio 0.9890±0.0040 wins 10/10 p_t=1.50e-04 (holm 4.50e-04) p_W=0.0020 (holm 0.0176) dz=-1.98 rbc=-1.00
+SAD-OTR-TM vs Eclipse-K: ratio 0.7552±0.0093 wins 10/10 p_t=2.00e-12 (holm 1.80e-11) p_W=0.0020 (holm 0.0176) dz=-16.26 rbc=-1.00
+SAD-OTR-TM vs SAD-OTR (GHEM-AC): ratio 0.5170±0.0289 wins 10/10 p_t=6.92e-10 (holm 4.15e-09) p_W=0.0020 (holm 0.0176) dz=-8.46 rbc=-1.00
+SAD-OTR-TM vs Solstice-K+LP: ratio 0.5666±0.0162 wins 10/10 p_t=7.97e-12 (holm 6.38e-11) p_W=0.0020 (holm 0.0176) dz=-13.94 rbc=-1.00
+SAD-OTR (GHEM-AC) vs MWM per phase: ratio 0.9848±0.0097 wins 10/10 p_t=6.33e-03 (holm 1.27e-02) p_W=0.0020 (holm 0.0176) dz=-1.12 rbc=-1.00
+SAD-OTR (GHEM-AC) vs RotorNet-style: ratio 0.7529±0.0574 wins 10/10 p_t=1.26e-05 (holm 5.02e-05) p_W=0.0020 (holm 0.0176) dz=-2.71 rbc=-1.00
+SAD-OTR (GHEM-AC) vs Static OCS: ratio 0.4888±0.0224 wins 10/10 p_t=5.37e-11 (holm 3.76e-10) p_W=0.0020 (holm 0.0176) dz=-11.26 rbc=-1.00
+SAD-OTR (GHEM-AC) vs Solstice-K: ratio 0.9028±0.0615 wins 9/10 p_t=6.48e-03 (holm 1.27e-02) p_W=0.0098 (holm 0.0176) dz=-1.11 rbc=-0.89
+Eclipse-K vs SAD-OTR (GHEM-AC): ratio 0.6855±0.0459 wins 10/10 p_t=4.04e-07 (holm 2.02e-06) p_W=0.0020 (holm 0.0176) dz=-4.09 rbc=-1.00

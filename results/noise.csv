@@ -1,0 +1,6 @@
+noise_frac,mean_phase_s_true_eval,mean_phase_s_oracle,degradation_pct_vs_oracle,n_reconfig
+0.0,1.143,1.143,0.0,9
+0.1,1.145,1.143,0.18,9
+0.2,1.149,1.143,0.56,9
+0.3,1.214,1.143,6.19,9
+fanout_p=0.2_on_EP,1.258,1.143,10.1,

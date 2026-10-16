@@ -1,0 +1,150 @@
+{
+  "default L_max=32": {
+    "mean_phase_s": 0.5123103346171436,
+    "n_reconfig": 89.8,
+    "phases_at_cap": 4.0,
+    "per_seed": [
+      {
+        "seed": 0,
+        "mean_phase_s": 0.5150764906799062,
+        "n_reconfig": 89,
+        "phases_at_cap": 4
+      },
+      {
+        "seed": 1,
+        "mean_phase_s": 0.5074132759201275,
+        "n_reconfig": 77,
+        "phases_at_cap": 4
+      },
+      {
+        "seed": 2,
+        "mean_phase_s": 0.49554638264121537,
+        "n_reconfig": 100,
+        "phases_at_cap": 4
+      },
+      {
+        "seed": 3,
+        "mean_phase_s": 0.5167517185617806,
+        "n_reconfig": 96,
+        "phases_at_cap": 4
+      },
+      {
+        "seed": 4,
+        "mean_phase_s": 0.5267638052826881,
+        "n_reconfig": 87,
+        "phases_at_cap": 4
+      }
+    ]
+  },
+  "L_max=128": {
+    "mean_phase_s": 0.48637358226622185,
+    "n_reconfig": 149.0,
+    "phases_at_cap": 0.0,
+    "per_seed": [
+      {
+        "seed": 0,
+        "mean_phase_s": 0.502550495370557,
+        "n_reconfig": 146,
+        "phases_at_cap": 0
+      },
+      {
+        "seed": 1,
+        "mean_phase_s": 0.4857585150253405,
+        "n_reconfig": 145,
+        "phases_at_cap": 0
+      },
+      {
+        "seed": 2,
+        "mean_phase_s": 0.46337882470927494,
+        "n_reconfig": 139,
+        "phases_at_cap": 0
+      },
+      {
+        "seed": 3,
+        "mean_phase_s": 0.5087451177130903,
+        "n_reconfig": 167,
+        "phases_at_cap": 0
+      },
+      {
+        "seed": 4,
+        "mean_phase_s": 0.4714349585128468,
+        "n_reconfig": 148,
+        "phases_at_cap": 0
+      }
+    ]
+  },
+  "no GHEM-AC first slice, L_max=32": {
+    "mean_phase_s": 0.5170223168779458,
+    "n_reconfig": 108.2,
+    "phases_at_cap": 4.0,
+    "per_seed": [
+      {
+        "seed": 0,
+        "mean_phase_s": 0.523516559137221,
+        "n_reconfig": 103,
+        "phases_at_cap": 4
+      },
+      {
+        "seed": 1,
+        "mean_phase_s": 0.5300966461320585,
+        "n_reconfig": 117,
+        "phases_at_cap": 4
+      },
+      {
+        "seed": 2,
+        "mean_phase_s": 0.4648505084659238,
+        "n_reconfig": 129,
+        "phases_at_cap": 4
+      },
+      {
+        "seed": 3,
+        "mean_phase_s": 0.5512264417311045,
+        "n_reconfig": 93,
+        "phases_at_cap": 4
+      },
+      {
+        "seed": 4,
+        "mean_phase_s": 0.515421428923421,
+        "n_reconfig": 99,
+        "phases_at_cap": 4
+      }
+    ]
+  },
+  "no GHEM-AC first slice, L_max=128": {
+    "mean_phase_s": 0.4872368055671785,
+    "n_reconfig": 170.6,
+    "phases_at_cap": 0.0,
+    "per_seed": [
+      {
+        "seed": 0,
+        "mean_phase_s": 0.5026031118853846,
+        "n_reconfig": 160,
+        "phases_at_cap": 0
+      },
+      {
+        "seed": 1,
+        "mean_phase_s": 0.4861835150253406,
+        "n_reconfig": 196,
+        "phases_at_cap": 0
+      },
+      {
+        "seed": 2,
+        "mean_phase_s": 0.46111885575089717,
+        "n_reconfig": 140,
+        "phases_at_cap": 0
+      },
+      {
+        "seed": 3,
+        "mean_phase_s": 0.5089534510464236,
+        "n_reconfig": 192,
+        "phases_at_cap": 0
+      },
+      {
+        "seed": 4,
+        "mean_phase_s": 0.4773250941278466,
+        "n_reconfig": 165,
+        "phases_at_cap": 0
+      }
+    ]
+  }
+}

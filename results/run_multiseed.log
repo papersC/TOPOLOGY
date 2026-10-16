@@ -1,0 +1,12 @@
+seed=0: ghem=1.143s opt%=77.5 gap=0.00/0.00
+seed=1: ghem=1.005s opt%=77.8 gap=0.00/0.00
+seed=2: ghem=0.899s opt%=76.8 gap=0.00/0.00
+seed=3: ghem=1.194s opt%=76.0 gap=0.00/0.00
+seed=4: ghem=0.893s opt%=77.7 gap=0.00/0.00
+seed=5: ghem=0.940s opt%=77.3 gap=0.00/0.00
+seed=6: ghem=0.869s opt%=77.2 gap=0.00/0.00
+seed=7: ghem=0.993s opt%=77.7 gap=0.00/0.00
+seed=8: ghem=1.123s opt%=76.4 gap=0.00/0.00
+seed=9: ghem=1.097s opt%=77.1 gap=0.00/0.00
+Summary mean±std ghem_mean_s: 1.016±0.117
+Wrote results/multiseed.json

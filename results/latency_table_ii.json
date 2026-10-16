@@ -1,0 +1,62 @@
+{
+  "table_opt_latency": [
+    {
+      "N": 8,
+      "ghem_mean_ms": 3.2,
+      "ghem_median_ms": 3.2,
+      "milp_mean_ms": 14.6,
+      "milp_median_ms": 14.0,
+      "milp_max_ms": 27.1
+    },
+    {
+      "N": 12,
+      "ghem_mean_ms": 3.2,
+      "ghem_median_ms": 3.1,
+      "milp_mean_ms": 856.1,
+      "milp_median_ms": 22.6,
+      "milp_max_ms": 10041.2
+    },
+    {
+      "N": 16,
+      "ghem_mean_ms": 4.7,
+      "ghem_median_ms": 4.3,
+      "milp_mean_ms": 18.2,
+      "milp_median_ms": 20.6,
+      "milp_max_ms": 25.8
+    },
+    {
+      "N": 20,
+      "ghem_mean_ms": 4.2,
+      "ghem_median_ms": 4.7,
+      "milp_mean_ms": 18.6,
+      "milp_median_ms": 21.8,
+      "milp_max_ms": 24.7
+    },
+    {
+      "N": 24,
+      "ghem_mean_ms": 6.1,
+      "ghem_median_ms": 6.0,
+      "milp_mean_ms": 23.4,
+      "milp_median_ms": 25.4,
+      "milp_max_ms": 35.0
+    },
+    {
+      "N": 28,
+      "ghem_mean_ms": 8.6,
+      "ghem_median_ms": 8.5,
+      "milp_mean_ms": 27.6,
+      "milp_median_ms": 31.3,
+      "milp_max_ms": 42.8
+    },
+    {
+      "N": 32,
+      "ghem_mean_ms": 9.2,
+      "ghem_median_ms": 9.2,
+      "milp_mean_ms": 30.9,
+      "milp_median_ms": 35.3,
+      "milp_max_ms": 41.2
+    }
+  ],
+  "growth_ghem": 0.8088532216816723,
+  "growth_milp": -0.5994246643347242
+}

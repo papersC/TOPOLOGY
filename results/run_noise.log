@@ -1,0 +1,6 @@
+{'noise_frac': 0.0, 'mean_phase_s_true_eval': 1.143, 'mean_phase_s_oracle': 1.143, 'degradation_pct_vs_oracle': 0.0, 'n_reconfig': 9}
+{'noise_frac': 0.1, 'mean_phase_s_true_eval': 1.145, 'mean_phase_s_oracle': 1.143, 'degradation_pct_vs_oracle': 0.18, 'n_reconfig': 9}
+{'noise_frac': 0.2, 'mean_phase_s_true_eval': 1.149, 'mean_phase_s_oracle': 1.143, 'degradation_pct_vs_oracle': 0.56, 'n_reconfig': 9}
+{'noise_frac': 0.3, 'mean_phase_s_true_eval': 1.214, 'mean_phase_s_oracle': 1.143, 'degradation_pct_vs_oracle': 6.19, 'n_reconfig': 9}
+fanout: {'noise_frac': 'fanout_p=0.2_on_EP', 'mean_phase_s_true_eval': 1.258, 'mean_phase_s_oracle': 1.143, 'degradation_pct_vs_oracle': 10.1, 'n_reconfig': None}
+Wrote results/noise.json

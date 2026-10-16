@@ -1,0 +1,5 @@
+scheme,mean_phase_s,max_phase_s,optical_pct,n_reconfig,speedup_vs_eps
+EPS Clos,2.845,7.527,0.0,0,1.0
+Static OCS,2.241,7.527,34.2,0,1.27
+SAD-OTR (GHEM-AC),1.143,3.862,77.5,9,2.49
+"SAD-OTR, delta=0",1.132,3.847,77.5,9,2.51

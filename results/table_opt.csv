@@ -1,0 +1,8 @@
+N,mean_gap_pct,worst_gap_pct,mean_gap_repair_pct,worst_gap_repair_pct,ghem_ms,milp_ms,worst_phase,worst_kind,worst_winner
+8,0.0,0.0,0.0,0.0,2.4,15.0,7,EP,WeightGreedy
+12,0.0,0.0,0.0,0.0,3.0,22.8,4,EP,WeightGreedy
+16,0.0,0.0,0.0,0.0,4.8,853.0,7,EP,WeightGreedy
+20,0.0,0.0,0.0,0.0,5.3,1686.9,1,EP,WeightGreedy
+24,0.0,0.0,0.0,0.0,6.3,24.4,0,TP,WeightGreedy
+28,0.0,0.0,0.0,0.0,6.5,25.3,1,EP,WeightGreedy
+32,0.0,0.0,0.0,0.0,7.9,28.3,7,EP,WeightGreedy

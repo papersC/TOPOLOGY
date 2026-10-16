@@ -1,0 +1,86 @@
+delta 15 ms seed 0: EPS Clos=0.0928, Static OCS=0.0674, RotorNet-style=0.0489, MWM per phase=0.0501, Solstice-K=0.1318, Solstice-K+LP=0.0693, Eclipse-K=0.0485, Eclipse-K+LP=0.0423, SAD-OTR (GHEM-AC)=0.0455, SAD-OTR-TM=0.0373, Ideal bound=0.0164
+delta 15 ms seed 1: EPS Clos=0.0941, Static OCS=0.0661, RotorNet-style=0.0494, MWM per phase=0.0506, Solstice-K=0.1138, Solstice-K+LP=0.0659, Eclipse-K=0.0494, Eclipse-K+LP=0.0425, SAD-OTR (GHEM-AC)=0.0459, SAD-OTR-TM=0.0375, Ideal bound=0.0165
+delta 15 ms seed 2: EPS Clos=0.0931, Static OCS=0.0632, RotorNet-style=0.0490, MWM per phase=0.0501, Solstice-K=0.1074, Solstice-K+LP=0.0663, Eclipse-K=0.0487, Eclipse-K+LP=0.0424, SAD-OTR (GHEM-AC)=0.0476, SAD-OTR-TM=0.0374, Ideal bound=0.0164
+delta 15 ms seed 3: EPS Clos=0.0925, Static OCS=0.0625, RotorNet-style=0.0488, MWM per phase=0.0499, Solstice-K=0.1128, Solstice-K+LP=0.0643, Eclipse-K=0.0479, Eclipse-K+LP=0.0423, SAD-OTR (GHEM-AC)=0.0453, SAD-OTR-TM=0.0373, Ideal bound=0.0163
+delta 15 ms seed 4: EPS Clos=0.0962, Static OCS=0.0644, RotorNet-style=0.0502, MWM per phase=0.0515, Solstice-K=0.1056, Solstice-K+LP=0.0705, Eclipse-K=0.0502, Eclipse-K+LP=0.0427, SAD-OTR (GHEM-AC)=0.0479, SAD-OTR-TM=0.0379, Ideal bound=0.0168
+delta 15 ms seed 5: EPS Clos=0.0957, Static OCS=0.0640, RotorNet-style=0.0500, MWM per phase=0.0513, Solstice-K=0.1169, Solstice-K+LP=0.0686, Eclipse-K=0.0491, Eclipse-K+LP=0.0427, SAD-OTR (GHEM-AC)=0.0472, SAD-OTR-TM=0.0389, Ideal bound=0.0167
+delta 15 ms seed 6: EPS Clos=0.0926, Static OCS=0.0619, RotorNet-style=0.0488, MWM per phase=0.0499, Solstice-K=0.1129, Solstice-K+LP=0.0614, Eclipse-K=0.0485, Eclipse-K+LP=0.0423, SAD-OTR (GHEM-AC)=0.0451, SAD-OTR-TM=0.0373, Ideal bound=0.0163
+delta 15 ms seed 7: EPS Clos=0.0944, Static OCS=0.0694, RotorNet-style=0.0495, MWM per phase=0.0507, Solstice-K=0.1265, Solstice-K+LP=0.0694, Eclipse-K=0.0491, Eclipse-K+LP=0.0425, SAD-OTR (GHEM-AC)=0.0459, SAD-OTR-TM=0.0375, Ideal bound=0.0165
+delta 15 ms seed 8: EPS Clos=0.0935, Static OCS=0.0698, RotorNet-style=0.0492, MWM per phase=0.0504, Solstice-K=0.1081, Solstice-K+LP=0.0701, Eclipse-K=0.0489, Eclipse-K+LP=0.0424, SAD-OTR (GHEM-AC)=0.0455, SAD-OTR-TM=0.0375, Ideal bound=0.0165
+delta 15 ms seed 9: EPS Clos=0.0925, Static OCS=0.0631, RotorNet-style=0.0488, MWM per phase=0.0499, Solstice-K=0.1049, Solstice-K+LP=0.0660, Eclipse-K=0.0481, Eclipse-K+LP=0.0423, SAD-OTR (GHEM-AC)=0.0451, SAD-OTR-TM=0.0373, Ideal bound=0.0163
+delta 1 ms seed 0: EPS Clos=0.0928, Static OCS=0.0674, RotorNet-style=0.0489, MWM per phase=0.0361, Solstice-K=0.0361, Solstice-K+LP=0.0279, Eclipse-K=0.0251, Eclipse-K+LP=0.0190, SAD-OTR (GHEM-AC)=0.0362, SAD-OTR-TM=0.0190, Ideal bound=0.0164
+delta 1 ms seed 1: EPS Clos=0.0941, Static OCS=0.0661, RotorNet-style=0.0494, MWM per phase=0.0366, Solstice-K=0.0345, Solstice-K+LP=0.0269, Eclipse-K=0.0253, Eclipse-K+LP=0.0192, SAD-OTR (GHEM-AC)=0.0366, SAD-OTR-TM=0.0192, Ideal bound=0.0165
+delta 1 ms seed 2: EPS Clos=0.0931, Static OCS=0.0632, RotorNet-style=0.0490, MWM per phase=0.0361, Solstice-K=0.0339, Solstice-K+LP=0.0264, Eclipse-K=0.0251, Eclipse-K+LP=0.0190, SAD-OTR (GHEM-AC)=0.0365, SAD-OTR-TM=0.0190, Ideal bound=0.0164
+delta 1 ms seed 3: EPS Clos=0.0925, Static OCS=0.0625, RotorNet-style=0.0488, MWM per phase=0.0359, Solstice-K=0.0335, Solstice-K+LP=0.0266, Eclipse-K=0.0249, Eclipse-K+LP=0.0190, SAD-OTR (GHEM-AC)=0.0358, SAD-OTR-TM=0.0190, Ideal bound=0.0163
+delta 1 ms seed 4: EPS Clos=0.0962, Static OCS=0.0644, RotorNet-style=0.0502, MWM per phase=0.0375, Solstice-K=0.0344, Solstice-K+LP=0.0272, Eclipse-K=0.0256, Eclipse-K+LP=0.0194, SAD-OTR (GHEM-AC)=0.0374, SAD-OTR-TM=0.0194, Ideal bound=0.0168
+delta 100 ms seed 0: EPS Clos=0.0928, Static OCS=0.0674, RotorNet-style=0.0489, MWM per phase=0.1351, Solstice-K=0.7126, Solstice-K+LP=0.0845, Eclipse-K=0.0887, Eclipse-K+LP=0.0845, SAD-OTR (GHEM-AC)=0.0845, SAD-OTR-TM=0.0845, Ideal bound=0.0164
+delta 100 ms seed 1: EPS Clos=0.0941, Static OCS=0.0661, RotorNet-style=0.0494, MWM per phase=0.1356, Solstice-K=0.5955, Solstice-K+LP=0.0858, Eclipse-K=0.0900, Eclipse-K+LP=0.0858, SAD-OTR (GHEM-AC)=0.0858, SAD-OTR-TM=0.0858, Ideal bound=0.0165
+delta 100 ms seed 2: EPS Clos=0.0931, Static OCS=0.0632, RotorNet-style=0.0490, MWM per phase=0.1351, Solstice-K=0.5537, Solstice-K+LP=0.0848, Eclipse-K=0.0890, Eclipse-K+LP=0.0848, SAD-OTR (GHEM-AC)=0.0848, SAD-OTR-TM=0.0848, Ideal bound=0.0164
+delta 100 ms seed 3: EPS Clos=0.0925, Static OCS=0.0625, RotorNet-style=0.0488, MWM per phase=0.1349, Solstice-K=0.5945, Solstice-K+LP=0.0843, Eclipse-K=0.0884, Eclipse-K+LP=0.0843, SAD-OTR (GHEM-AC)=0.0843, SAD-OTR-TM=0.0843, Ideal bound=0.0163
+delta 100 ms seed 4: EPS Clos=0.0962, Static OCS=0.0644, RotorNet-style=0.0502, MWM per phase=0.1365, Solstice-K=0.5377, Solstice-K+LP=0.0879, Eclipse-K=0.0921, Eclipse-K+LP=0.0879, SAD-OTR (GHEM-AC)=0.0879, SAD-OTR-TM=0.0879, Ideal bound=0.0168
+delta 15.0
+  EPS Clos             0.0938±0.0010 x1.00 opt 0.0% rec 0.0 lat 0.0 /TM 2.493
+  Static OCS           0.0652±0.0020 x1.44 opt 51.0% rec 0.0 lat 0.0 /TM 1.733
+  RotorNet-style       0.0493±0.0004 x1.90 opt 56.7% rec 0.0 lat 0.0 /TM 1.310
+  MWM per phase        0.0505±0.0004 x1.86 opt 62.7% rec 12.0 lat 0.1 /TM 1.341
+  Solstice-K           0.1141±0.0064 x0.83 opt 87.0% rec 68.2 lat 2.2 /TM 3.033
+  Solstice-K+LP        0.0672±0.0021 x1.40 opt 58.0% rec 27.5 lat 18.8 /TM 1.786
+  Eclipse-K            0.0489±0.0005 x1.92 opt 98.9% rec 20.0 lat 9.3 /TM 1.299
+  Eclipse-K+LP         0.0424±0.0001 x2.21 opt 77.8% rec 20.0 lat 16.7 /TM 1.129
+  SAD-OTR (GHEM-AC)    0.0461±0.0007 x2.03 opt 62.3% rec 8.0 lat 6.1 /TM 1.226
+  SAD-OTR-TM           0.0376±0.0004 x2.49 opt 77.7% rec 16.1 lat 20.0 /TM 1.000
+  Ideal bound          0.0165±0.0001 x5.69 opt nan% rec 0.0 lat 0.0 /TM 0.438
+delta 1.0
+  EPS Clos             0.0938±0.0019 x1.00 opt 0.0% rec 0.0 lat 0.0 /TM 4.905
+  Static OCS           0.0647±0.0025 x1.45 opt 51.3% rec 0.0 lat 0.0 /TM 3.386
+  RotorNet-style       0.0493±0.0007 x1.90 opt 56.7% rec 0.0 lat 0.0 /TM 2.578
+  MWM per phase        0.0364±0.0008 x2.57 opt 62.7% rec 12.0 lat 0.1 /TM 1.907
+  Solstice-K           0.0345±0.0012 x2.72 opt 87.1% rec 68.4 lat 2.2 /TM 1.803
+  Solstice-K+LP        0.0270±0.0007 x3.47 opt 71.0% rec 54.6 lat 52.6 /TM 1.413
+  Eclipse-K            0.0252±0.0004 x3.72 opt 99.2% rec 39.4 lat 17.0 /TM 1.319
+  Eclipse-K+LP         0.0191±0.0002 x4.90 opt 77.6% rec 20.0 lat 45.9 /TM 1.000
+  SAD-OTR (GHEM-AC)    0.0365±0.0008 x2.57 opt 62.3% rec 9.2 lat 5.8 /TM 1.909
+  SAD-OTR-TM           0.0191±0.0002 x4.90 opt 77.7% rec 20.0 lat 80.4 /TM 1.000
+  Ideal bound          0.0165±0.0002 x5.69 opt nan% rec 0.0 lat 0.0 /TM 0.862
+delta 100.0
+  EPS Clos             0.0938±0.0019 x1.00 opt 0.0% rec 0.0 lat 0.0 /TM 1.097
+  Static OCS           0.0647±0.0025 x1.45 opt 51.3% rec 0.0 lat 0.0 /TM 0.757
+  RotorNet-style       0.0493±0.0007 x1.90 opt 56.7% rec 0.0 lat 0.0 /TM 0.577
+  MWM per phase        0.1354±0.0008 x0.69 opt 62.7% rec 12.0 lat 0.1 /TM 1.585
+  Solstice-K           0.5988±0.0850 x0.16 opt 87.1% rec 68.4 lat 2.2 /TM 7.013
+  Solstice-K+LP        0.0855±0.0019 x1.10 opt 22.0% rec 1.0 lat 4.9 /TM 1.000
+  Eclipse-K            0.0896±0.0019 x1.05 opt 33.0% rec 1.0 lat 4.4 /TM 1.049
+  Eclipse-K+LP         0.0855±0.0019 x1.10 opt 22.0% rec 1.0 lat 4.6 /TM 1.000
+  SAD-OTR (GHEM-AC)    0.0855±0.0019 x1.10 opt 22.0% rec 1.0 lat 5.9 /TM 1.000
+  SAD-OTR-TM           0.0855±0.0019 x1.10 opt 22.0% rec 1.0 lat 12.9 /TM 1.000
+  Ideal bound          0.0165±0.0002 x5.69 opt nan% rec 0.0 lat 0.0 /TM 0.193
+{
+ "SAD-OTR-TM vs Eclipse-K+LP": {
+  "mean_ratio": 0.886087429966674,
+  "wins_a": 10,
+  "ties": 0,
+  "p_t_log": 4.2825685879882764e-11,
+  "p_wilcoxon": 0.001953125
+ },
+ "SAD-OTR-TM vs SAD-OTR (GHEM-AC)": {
+  "mean_ratio": 0.8160250996485839,
+  "wins_a": 10,
+  "ties": 0,
+  "p_t_log": 5.592791239956467e-11,
+  "p_wilcoxon": 0.001953125
+ },
+ "SAD-OTR (GHEM-AC) vs MWM per phase": {
+  "mean_ratio": 0.9138166510504362,
+  "wins_a": 10,
+  "ties": 0,
+  "p_t_log": 2.9132141907541124e-08,
+  "p_wilcoxon": 0.001953125
+ },
+ "SAD-OTR-TM vs Eclipse-K": {
+  "mean_ratio": 0.7700451703932022,
+  "wins_a": 10,
+  "ties": 0,
+  "p_t_log": 4.79107070984405e-13,
+  "p_wilcoxon": 0.001953125
+ }
+}
